@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-LimeLight_Automation_Tests" class="navigator-link">
+              <span class="suite-name border-passed">LimeLight Automation Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-LimeLight_Automation_Tests" class="navigator-link ">
+                    <span>C:\Selenium\MagentrixAutomation\src\test\java\TestSuites\testng_Chrome.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-LimeLight_Automation_Tests" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-LimeLight_Automation_Tests" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-LimeLight_Automation_Tests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-LimeLight_Automation_Tests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-LimeLight_Automation_Tests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-LimeLight_Automation_Tests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LimeLight_Automation_Tests" class="hide-methods passed suite-LimeLight_Automation_Tests"> (hide)</a> <!-- hide-methods passed suite-LimeLight_Automation_Tests -->
+                      <a href="#" panel-name="suite-LimeLight_Automation_Tests" class="show-methods passed suite-LimeLight_Automation_Tests"> (show)</a> <!-- show-methods passed suite-LimeLight_Automation_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-LimeLight_Automation_Tests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_ForgotPWD">Test_ForgotPWD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_Login">Test_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_LoginBtn">Test_LoginBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_Logo">Test_Logo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_NotMember">Test_NotMember</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_Password">Test_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_RememberMe">Test_RememberMe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_SignUpBtn">Test_SignUpBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_TopSignIn">Test_TopSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_TopSignUp">Test_TopSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_UserName">Test_UserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="Test_Welcome">Test_Welcome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LimeLight_Automation_Tests" title="TestCases.LoginPageTest" class="method navigator-link" hash-for-method="TitleTest">TitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LimeLight_Automation_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LimeLight_Automation_Tests" class="panel LimeLight_Automation_Tests">
+          <div class="suite-LimeLight_Automation_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_ForgotPWD">
+                  </a> <!-- Test_ForgotPWD -->
+                  <span class="method-name">Test_ForgotPWD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Login">
+                  </a> <!-- Test_Login -->
+                  <span class="method-name">Test_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_LoginBtn">
+                  </a> <!-- Test_LoginBtn -->
+                  <span class="method-name">Test_LoginBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Logo">
+                  </a> <!-- Test_Logo -->
+                  <span class="method-name">Test_Logo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_NotMember">
+                  </a> <!-- Test_NotMember -->
+                  <span class="method-name">Test_NotMember</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Password">
+                  </a> <!-- Test_Password -->
+                  <span class="method-name">Test_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_RememberMe">
+                  </a> <!-- Test_RememberMe -->
+                  <span class="method-name">Test_RememberMe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_SignUpBtn">
+                  </a> <!-- Test_SignUpBtn -->
+                  <span class="method-name">Test_SignUpBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_TopSignIn">
+                  </a> <!-- Test_TopSignIn -->
+                  <span class="method-name">Test_TopSignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_TopSignUp">
+                  </a> <!-- Test_TopSignUp -->
+                  <span class="method-name">Test_TopSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_UserName">
+                  </a> <!-- Test_UserName -->
+                  <span class="method-name">Test_UserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Welcome">
+                  </a> <!-- Test_Welcome -->
+                  <span class="method-name">Test_Welcome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TitleTest">
+                  </a> <!-- TitleTest -->
+                  <span class="method-name">TitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LimeLight_Automation_Tests-class-passed -->
+        </div> <!-- panel LimeLight_Automation_Tests -->
+        <div panel-name="test-xml-LimeLight_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium\MagentrixAutomation\src\test\java\TestSuites\testng_Chrome.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;LimeLight Automation Tests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browserType&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+&lt;/suite&gt; &lt;!-- LimeLight Automation Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LimeLight_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LimeLight Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LimeLight_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LimeLight Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LimeLight_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LimeLight Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LimeLight_Automation_Tests');
+function tableData_LimeLight_Automation_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test_Login')
+data.setCell(0, 2, 'TestCases.LoginPageTest')
+data.setCell(0, 3, 1024);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test_SignUpBtn')
+data.setCell(1, 2, 'TestCases.LoginPageTest')
+data.setCell(1, 3, 194);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test_Logo')
+data.setCell(2, 2, 'TestCases.LoginPageTest')
+data.setCell(2, 3, 178);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test_LoginBtn')
+data.setCell(3, 2, 'TestCases.LoginPageTest')
+data.setCell(3, 3, 172);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test_NotMember')
+data.setCell(4, 2, 'TestCases.LoginPageTest')
+data.setCell(4, 3, 164);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test_UserName')
+data.setCell(5, 2, 'TestCases.LoginPageTest')
+data.setCell(5, 3, 163);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test_Password')
+data.setCell(6, 2, 'TestCases.LoginPageTest')
+data.setCell(6, 3, 163);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Test_Welcome')
+data.setCell(7, 2, 'TestCases.LoginPageTest')
+data.setCell(7, 3, 161);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Test_TopSignUp')
+data.setCell(8, 2, 'TestCases.LoginPageTest')
+data.setCell(8, 3, 161);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Test_ForgotPWD')
+data.setCell(9, 2, 'TestCases.LoginPageTest')
+data.setCell(9, 3, 154);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test_RememberMe')
+data.setCell(10, 2, 'TestCases.LoginPageTest')
+data.setCell(10, 3, 152);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Test_TopSignIn')
+data.setCell(11, 2, 'TestCases.LoginPageTest')
+data.setCell(11, 3, 149);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TitleTest')
+data.setCell(12, 2, 'TestCases.LoginPageTest')
+data.setCell(12, 3, 9);
+window.suiteTableData['LimeLight_Automation_Tests']= { tableData: data, tableDiv: 'times-div-LimeLight_Automation_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-LimeLight_Automation_Tests">
+              </div> <!-- times-div-LimeLight_Automation_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LimeLight_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LimeLight Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LimeLight_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LimeLight_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">BeforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">TestBaseSetup(Chrome)</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.TitleTest()[pri:1, instance:TestCases.Lo...)</span>
+                <span class="method-start">5327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TitleTest</span>
+                <span class="method-start">5346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=TitleTest status=SUCCESS method=LoginPageTest.TitleTest()[pri:1, instance:TestCases...)</span>
+                <span class="method-start">5356 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_Logo()[pri:2, instance:TestCases.Lo...)</span>
+                <span class="method-start">5359 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Logo</span>
+                <span class="method-start">5362 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_Logo status=SUCCESS method=LoginPageTest.Test_Logo()[pri:2, instance:TestCases...)</span>
+                <span class="method-start">5541 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_TopSignUp()[pri:3, instance:TestCas...)</span>
+                <span class="method-start">5542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_TopSignUp</span>
+                <span class="method-start">5544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_TopSignUp status=SUCCESS method=LoginPageTest.Test_TopSignUp()[pri:3, instance...)</span>
+                <span class="method-start">5706 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_TopSignIn()[pri:4, instance:TestCas...)</span>
+                <span class="method-start">5707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_TopSignIn</span>
+                <span class="method-start">5709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_TopSignIn status=SUCCESS method=LoginPageTest.Test_TopSignIn()[pri:4, instance...)</span>
+                <span class="method-start">5859 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_Welcome()[pri:5, instance:TestCases...)</span>
+                <span class="method-start">5860 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Welcome</span>
+                <span class="method-start">5861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_Welcome status=SUCCESS method=LoginPageTest.Test_Welcome()[pri:5, instance:Tes...)</span>
+                <span class="method-start">6023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_UserName()[pri:6, instance:TestCase...)</span>
+                <span class="method-start">6024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_UserName</span>
+                <span class="method-start">6025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_UserName status=SUCCESS method=LoginPageTest.Test_UserName()[pri:6, instance:T...)</span>
+                <span class="method-start">6188 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_Password()[pri:7, instance:TestCase...)</span>
+                <span class="method-start">6189 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Password</span>
+                <span class="method-start">6191 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_Password status=SUCCESS method=LoginPageTest.Test_Password()[pri:7, instance:T...)</span>
+                <span class="method-start">6354 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_LoginBtn()[pri:8, instance:TestCase...)</span>
+                <span class="method-start">6355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_LoginBtn</span>
+                <span class="method-start">6357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_LoginBtn status=SUCCESS method=LoginPageTest.Test_LoginBtn()[pri:8, instance:T...)</span>
+                <span class="method-start">6529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_RememberMe()[pri:9, instance:TestCa...)</span>
+                <span class="method-start">6530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_RememberMe</span>
+                <span class="method-start">6532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_RememberMe status=SUCCESS method=LoginPageTest.Test_RememberMe()[pri:9, instan...)</span>
+                <span class="method-start">6684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_ForgotPWD()[pri:10, instance:TestCa...)</span>
+                <span class="method-start">6685 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_ForgotPWD</span>
+                <span class="method-start">6687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_ForgotPWD status=SUCCESS method=LoginPageTest.Test_ForgotPWD()[pri:10, instanc...)</span>
+                <span class="method-start">6841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_NotMember()[pri:11, instance:TestCa...)</span>
+                <span class="method-start">6842 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_NotMember</span>
+                <span class="method-start">6844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_NotMember status=SUCCESS method=LoginPageTest.Test_NotMember()[pri:11, instanc...)</span>
+                <span class="method-start">7008 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_SignUpBtn()[pri:12, instance:TestCa...)</span>
+                <span class="method-start">7009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_SignUpBtn</span>
+                <span class="method-start">7010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_SignUpBtn status=SUCCESS method=LoginPageTest.Test_SignUpBtn()[pri:12, instanc...)</span>
+                <span class="method-start">7204 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=LoginPageTest.Test_Login()[pri:13, instance:TestCases....)</span>
+                <span class="method-start">7205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_Login</span>
+                <span class="method-start">7207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Test_Login status=SUCCESS method=LoginPageTest.Test_Login()[pri:13, instance:TestCa...)</span>
+                <span class="method-start">8231 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8233 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">AfterSuite</span>
+                <span class="method-start">9010 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
