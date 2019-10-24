@@ -43,6 +43,10 @@ public class LoginPage extends TestBase {
 @FindBy(xpath = "//a[text()='Sign Up']")
     WebElement SignUpBtn;
 
+
+@FindBy(xpath = "//span[text()='Your login attempt has failed. The username or password may be incorrect, or your access may be restricted. Please contact the administrator for help.']")
+WebElement Error;
+
 @FindBy(xpath = "//a[text()='Partner Home']")
 WebElement Home;
 
@@ -108,8 +112,19 @@ WebElement Home;
     }
 
 
-    public boolean verify_Login() throws Exception{
+    public boolean verify_WrongLogin() throws Exception{
+        UserName.sendKeys(prop.getProperty("WrongUsername"));
+        Password.sendKeys(prop.getProperty("WrongPassword"));
+        LoginBtn.click();
+        return Error.isDisplayed();
+    }
 
+
+
+    public boolean verify_CorrectLogin() throws Exception{
+
+        UserName.clear();
+        Password.clear();
         UserName.sendKeys(prop.getProperty("Username"));
         Password.sendKeys(prop.getProperty("Password"));
         LoginBtn.click();

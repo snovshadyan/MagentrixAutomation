@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="2.816" tests="13" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="2.635" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13.0.1+9"/>
@@ -59,17 +59,17 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TitleTest" classname="TestCases.LoginPageTest" time="0.009"/>
-  <testcase name="Test_Logo" classname="TestCases.LoginPageTest" time="0.177"/>
-  <testcase name="Test_TopSignUp" classname="TestCases.LoginPageTest" time="0.157"/>
-  <testcase name="Test_TopSignIn" classname="TestCases.LoginPageTest" time="0.145"/>
-  <testcase name="Test_Welcome" classname="TestCases.LoginPageTest" time="0.157"/>
-  <testcase name="Test_UserName" classname="TestCases.LoginPageTest" time="0.162"/>
-  <testcase name="Test_Password" classname="TestCases.LoginPageTest" time="0.162"/>
-  <testcase name="Test_LoginBtn" classname="TestCases.LoginPageTest" time="0.174"/>
-  <testcase name="Test_RememberMe" classname="TestCases.LoginPageTest" time="0.15"/>
-  <testcase name="Test_ForgotPWD" classname="TestCases.LoginPageTest" time="0.154"/>
-  <testcase name="Test_NotMember" classname="TestCases.LoginPageTest" time="0.164"/>
-  <testcase name="Test_SignUpBtn" classname="TestCases.LoginPageTest" time="0.19"/>
-  <testcase name="Test_Login" classname="TestCases.LoginPageTest" time="1.015"/>
+  <testcase name="TitleTest" classname="TestCases.LoginPageTest" time="0.012"/>
+  <testcase name="Test_Logo" classname="TestCases.LoginPageTest" time="0.179"/>
+  <testcase name="Test_TopSignUp" classname="TestCases.LoginPageTest" time="0.16"/>
+  <testcase name="Test_TopSignIn" classname="TestCases.LoginPageTest" time="0.155"/>
+  <testcase name="Test_Welcome" classname="TestCases.LoginPageTest" time="0.166"/>
+  <testcase name="Test_UserName" classname="TestCases.LoginPageTest" time="0.155"/>
+  <testcase name="Test_Password" classname="TestCases.LoginPageTest" time="0.158"/>
+  <testcase name="Test_LoginBtn" classname="TestCases.LoginPageTest" time="0.173"/>
+  <testcase name="Test_RememberMe" classname="TestCases.LoginPageTest" time="0.143"/>
+  <testcase name="Test_ForgotPWD" classname="TestCases.LoginPageTest" time="0.16"/>
+  <testcase name="Test_NotMember" classname="TestCases.LoginPageTest" time="0.153"/>
+  <testcase name="Test_SignUpBtn" classname="TestCases.LoginPageTest" time="0.145"/>
+  <testcase name="Test_Login" classname="TestCases.LoginPageTest" time="0.876"/>
 </testsuite>

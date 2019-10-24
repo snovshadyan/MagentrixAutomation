@@ -90,9 +90,17 @@ public class LoginPageTest extends TestBase {
         Assert.assertTrue(loginpage.verify_SignUpBtn());
     }
 
+
+
     @Test(priority = 13)
-    public void Test_Login() throws Exception{
-        Assert.assertTrue(loginpage.verify_Login());
+    public void Test_WrongLogin() throws Exception{
+        Assert.assertTrue(loginpage.verify_WrongLogin());
+    }
+
+
+    @Test(priority = 14)
+    public void Test_CorrectLogin() throws Exception{
+        Assert.assertTrue(loginpage.verify_CorrectLogin());
     }
 
 

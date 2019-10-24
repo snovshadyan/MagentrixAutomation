@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-24T17:08:42 EDT" name="LimeLight Automation Tests" finished-at="2019-10-24T17:08:51 EDT" duration-ms="8976">
+  <suite started-at="2019-10-24T17:26:40 EDT" name="LimeLight Automation Tests" finished-at="2019-10-24T17:26:49 EDT" duration-ms="8880">
     <groups>
     </groups>
-    <test started-at="2019-10-24T17:08:42 EDT" name="ChromeTest" finished-at="2019-10-24T17:08:51 EDT" duration-ms="8976">
+    <test started-at="2019-10-24T17:26:40 EDT" name="ChromeTest" finished-at="2019-10-24T17:26:49 EDT" duration-ms="8880">
       <class name="TestCases.LoginPageTest">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:42 EDT" name="BeforeSuite" finished-at="2019-10-24T17:08:42 EDT" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:40 EDT" name="BeforeSuite" finished-at="2019-10-24T17:26:40 EDT" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="TestBaseSetup(java.lang.String)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:42 EDT" name="TestBaseSetup" finished-at="2019-10-24T17:08:47 EDT" duration-ms="5283" status="PASS">
+        <test-method is-config="true" signature="TestBaseSetup(java.lang.String)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:40 EDT" name="TestBaseSetup" finished-at="2019-10-24T17:26:45 EDT" duration-ms="5384" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestBaseSetup -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:47 EDT" name="setup" finished-at="2019-10-24T17:08:47 EDT" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="setup" finished-at="2019-10-24T17:26:45 EDT" duration-ms="19" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TitleTest()[pri:1, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:47 EDT" name="TitleTest" finished-at="2019-10-24T17:08:47 EDT" duration-ms="9" status="PASS">
+        <test-method signature="TitleTest()[pri:1, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="TitleTest" finished-at="2019-10-24T17:26:45 EDT" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TitleTest -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:47 EDT" name="getResults" finished-at="2019-10-24T17:08:47 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="getResults" finished-at="2019-10-24T17:26:45 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:47 EDT" name="setup" finished-at="2019-10-24T17:08:47 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="setup" finished-at="2019-10-24T17:26:45 EDT" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,11 +59,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Logo()[pri:2, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:47 EDT" name="Test_Logo" finished-at="2019-10-24T17:08:47 EDT" duration-ms="178" status="PASS">
+        <test-method signature="Test_Logo()[pri:2, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="Test_Logo" finished-at="2019-10-24T17:26:45 EDT" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Logo -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:47 EDT" name="getResults" finished-at="2019-10-24T17:08:47 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="getResults" finished-at="2019-10-24T17:26:45 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:47 EDT" name="setup" finished-at="2019-10-24T17:08:47 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="setup" finished-at="2019-10-24T17:26:45 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,11 +85,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_TopSignUp()[pri:3, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:47 EDT" name="Test_TopSignUp" finished-at="2019-10-24T17:08:48 EDT" duration-ms="161" status="PASS">
+        <test-method signature="Test_TopSignUp()[pri:3, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="Test_TopSignUp" finished-at="2019-10-24T17:26:46 EDT" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_TopSignUp -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="getResults" finished-at="2019-10-24T17:08:48 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="setup" finished-at="2019-10-24T17:08:48 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,11 +111,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_TopSignIn()[pri:4, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="Test_TopSignIn" finished-at="2019-10-24T17:08:48 EDT" duration-ms="149" status="PASS">
+        <test-method signature="Test_TopSignIn()[pri:4, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_TopSignIn" finished-at="2019-10-24T17:26:46 EDT" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_TopSignIn -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="getResults" finished-at="2019-10-24T17:08:48 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="setup" finished-at="2019-10-24T17:08:48 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,11 +137,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Welcome()[pri:5, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="Test_Welcome" finished-at="2019-10-24T17:08:48 EDT" duration-ms="161" status="PASS">
+        <test-method signature="Test_Welcome()[pri:5, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_Welcome" finished-at="2019-10-24T17:26:46 EDT" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Welcome -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="getResults" finished-at="2019-10-24T17:08:48 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,7 +152,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="setup" finished-at="2019-10-24T17:08:48 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,11 +163,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_UserName()[pri:6, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="Test_UserName" finished-at="2019-10-24T17:08:48 EDT" duration-ms="163" status="PASS">
+        <test-method signature="Test_UserName()[pri:6, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_UserName" finished-at="2019-10-24T17:26:46 EDT" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_UserName -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="getResults" finished-at="2019-10-24T17:08:48 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -178,7 +178,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="setup" finished-at="2019-10-24T17:08:48 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,11 +189,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Password()[pri:7, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="Test_Password" finished-at="2019-10-24T17:08:48 EDT" duration-ms="163" status="PASS">
+        <test-method signature="Test_Password()[pri:7, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_Password" finished-at="2019-10-24T17:26:46 EDT" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Password -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="getResults" finished-at="2019-10-24T17:08:48 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,7 +204,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="setup" finished-at="2019-10-24T17:08:48 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,11 +215,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_LoginBtn()[pri:8, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="Test_LoginBtn" finished-at="2019-10-24T17:08:48 EDT" duration-ms="172" status="PASS">
+        <test-method signature="Test_LoginBtn()[pri:8, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_LoginBtn" finished-at="2019-10-24T17:26:46 EDT" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LoginBtn -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="getResults" finished-at="2019-10-24T17:08:48 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -230,7 +230,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="setup" finished-at="2019-10-24T17:08:48 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,11 +241,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_RememberMe()[pri:9, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:48 EDT" name="Test_RememberMe" finished-at="2019-10-24T17:08:49 EDT" duration-ms="152" status="PASS">
+        <test-method signature="Test_RememberMe()[pri:9, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_RememberMe" finished-at="2019-10-24T17:26:47 EDT" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_RememberMe -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="getResults" finished-at="2019-10-24T17:08:49 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="getResults" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -256,7 +256,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="setup" finished-at="2019-10-24T17:08:49 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="setup" finished-at="2019-10-24T17:26:47 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,11 +267,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_ForgotPWD()[pri:10, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="Test_ForgotPWD" finished-at="2019-10-24T17:08:49 EDT" duration-ms="154" status="PASS">
+        <test-method signature="Test_ForgotPWD()[pri:10, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="Test_ForgotPWD" finished-at="2019-10-24T17:26:47 EDT" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_ForgotPWD -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="getResults" finished-at="2019-10-24T17:08:49 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="getResults" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -282,7 +282,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="setup" finished-at="2019-10-24T17:08:49 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="setup" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -293,11 +293,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_NotMember()[pri:11, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="Test_NotMember" finished-at="2019-10-24T17:08:49 EDT" duration-ms="164" status="PASS">
+        <test-method signature="Test_NotMember()[pri:11, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="Test_NotMember" finished-at="2019-10-24T17:26:47 EDT" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_NotMember -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="getResults" finished-at="2019-10-24T17:08:49 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="getResults" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -308,7 +308,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="setup" finished-at="2019-10-24T17:08:49 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="setup" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -319,11 +319,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_SignUpBtn()[pri:12, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="Test_SignUpBtn" finished-at="2019-10-24T17:08:49 EDT" duration-ms="194" status="PASS">
+        <test-method signature="Test_SignUpBtn()[pri:12, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="Test_SignUpBtn" finished-at="2019-10-24T17:26:47 EDT" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_SignUpBtn -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="getResults" finished-at="2019-10-24T17:08:49 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="getResults" finished-at="2019-10-24T17:26:47 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -334,7 +334,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="setup" finished-at="2019-10-24T17:08:49 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="setup" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -345,11 +345,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Login()[pri:13, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:49 EDT" name="Test_Login" finished-at="2019-10-24T17:08:50 EDT" duration-ms="1024" status="PASS">
+        <test-method signature="Test_Login()[pri:13, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="Test_Login" finished-at="2019-10-24T17:26:48 EDT" duration-ms="878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:50 EDT" name="getResults" finished-at="2019-10-24T17:08:50 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:48 EDT" name="getResults" finished-at="2019-10-24T17:26:48 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -360,11 +360,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:50 EDT" name="tearDown" finished-at="2019-10-24T17:08:51 EDT" duration-ms="763" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:48 EDT" name="tearDown" finished-at="2019-10-24T17:26:49 EDT" duration-ms="765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:08:51 EDT" name="AfterSuite" finished-at="2019-10-24T17:08:51 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:49 EDT" name="AfterSuite" finished-at="2019-10-24T17:26:49 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->

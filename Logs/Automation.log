@@ -1,33 +1,35 @@
-2019-10-24 17:08:42.380 [main] INFO  Base.TestBase - Starting Magentrix test Thu Oct 24 17:08:42 EDT 2019
+2019-10-24 17:45:26.793 [main] INFO  Base.TestBase - Starting Magentrix test Thu Oct 24 17:45:26 EDT 2019
 
-2019-10-24 17:08:44.954 [main] INFO  Base.TestBase - Launching Chrome browser
+2019-10-24 17:45:29.685 [main] INFO  Base.TestBase - Launching Chrome browser
 
-2019-10-24 17:08:47.705 [main] INFO  TestCases.LoginPageTest - Testing TitleTest
-2019-10-24 17:08:47.716 [main] INFO  TestCases.LoginPageTest - Test: TitleTest == Passed
-2019-10-24 17:08:47.721 [main] INFO  TestCases.LoginPageTest - Testing Test_Logo
-2019-10-24 17:08:47.901 [main] INFO  TestCases.LoginPageTest - Test: Test_Logo == Passed
-2019-10-24 17:08:47.903 [main] INFO  TestCases.LoginPageTest - Testing Test_TopSignUp
-2019-10-24 17:08:48.066 [main] INFO  TestCases.LoginPageTest - Test: Test_TopSignUp == Passed
-2019-10-24 17:08:48.068 [main] INFO  TestCases.LoginPageTest - Testing Test_TopSignIn
-2019-10-24 17:08:48.219 [main] INFO  TestCases.LoginPageTest - Test: Test_TopSignIn == Passed
-2019-10-24 17:08:48.220 [main] INFO  TestCases.LoginPageTest - Testing Test_Welcome
-2019-10-24 17:08:48.383 [main] INFO  TestCases.LoginPageTest - Test: Test_Welcome == Passed
-2019-10-24 17:08:48.385 [main] INFO  TestCases.LoginPageTest - Testing Test_UserName
-2019-10-24 17:08:48.549 [main] INFO  TestCases.LoginPageTest - Test: Test_UserName == Passed
-2019-10-24 17:08:48.551 [main] INFO  TestCases.LoginPageTest - Testing Test_Password
-2019-10-24 17:08:48.714 [main] INFO  TestCases.LoginPageTest - Test: Test_Password == Passed
-2019-10-24 17:08:48.717 [main] INFO  TestCases.LoginPageTest - Testing Test_LoginBtn
-2019-10-24 17:08:48.890 [main] INFO  TestCases.LoginPageTest - Test: Test_LoginBtn == Passed
-2019-10-24 17:08:48.891 [main] INFO  TestCases.LoginPageTest - Testing Test_RememberMe
-2019-10-24 17:08:49.044 [main] INFO  TestCases.LoginPageTest - Test: Test_RememberMe == Passed
-2019-10-24 17:08:49.046 [main] INFO  TestCases.LoginPageTest - Testing Test_ForgotPWD
-2019-10-24 17:08:49.201 [main] INFO  TestCases.LoginPageTest - Test: Test_ForgotPWD == Passed
-2019-10-24 17:08:49.203 [main] INFO  TestCases.LoginPageTest - Testing Test_NotMember
-2019-10-24 17:08:49.368 [main] INFO  TestCases.LoginPageTest - Test: Test_NotMember == Passed
-2019-10-24 17:08:49.369 [main] INFO  TestCases.LoginPageTest - Testing Test_SignUpBtn
-2019-10-24 17:08:49.565 [main] INFO  TestCases.LoginPageTest - Test: Test_SignUpBtn == Passed
-2019-10-24 17:08:49.566 [main] INFO  TestCases.LoginPageTest - Testing Test_Login
-2019-10-24 17:08:50.591 [main] INFO  TestCases.LoginPageTest - Test: Test_Login == Passed
-2019-10-24 17:08:51.370 [main] INFO  Base.TestBase - Finishing Magentrix test Thu Oct 24 17:08:51 EDT 2019
+2019-10-24 17:45:32.424 [main] INFO  TestCases.LoginPageTest - Testing TitleTest
+2019-10-24 17:45:32.437 [main] INFO  TestCases.LoginPageTest - Test: TitleTest == Passed
+2019-10-24 17:45:32.443 [main] INFO  TestCases.LoginPageTest - Testing Test_Logo
+2019-10-24 17:45:32.672 [main] INFO  TestCases.LoginPageTest - Test: Test_Logo == Passed
+2019-10-24 17:45:32.674 [main] INFO  TestCases.LoginPageTest - Testing Test_TopSignUp
+2019-10-24 17:45:32.841 [main] INFO  TestCases.LoginPageTest - Test: Test_TopSignUp == Passed
+2019-10-24 17:45:32.843 [main] INFO  TestCases.LoginPageTest - Testing Test_TopSignIn
+2019-10-24 17:45:33.009 [main] INFO  TestCases.LoginPageTest - Test: Test_TopSignIn == Passed
+2019-10-24 17:45:33.010 [main] INFO  TestCases.LoginPageTest - Testing Test_Welcome
+2019-10-24 17:45:33.174 [main] INFO  TestCases.LoginPageTest - Test: Test_Welcome == Passed
+2019-10-24 17:45:33.175 [main] INFO  TestCases.LoginPageTest - Testing Test_UserName
+2019-10-24 17:45:33.331 [main] INFO  TestCases.LoginPageTest - Test: Test_UserName == Passed
+2019-10-24 17:45:33.335 [main] INFO  TestCases.LoginPageTest - Testing Test_Password
+2019-10-24 17:45:33.492 [main] INFO  TestCases.LoginPageTest - Test: Test_Password == Passed
+2019-10-24 17:45:33.494 [main] INFO  TestCases.LoginPageTest - Testing Test_LoginBtn
+2019-10-24 17:45:33.666 [main] INFO  TestCases.LoginPageTest - Test: Test_LoginBtn == Passed
+2019-10-24 17:45:33.670 [main] INFO  TestCases.LoginPageTest - Testing Test_RememberMe
+2019-10-24 17:45:33.813 [main] INFO  TestCases.LoginPageTest - Test: Test_RememberMe == Passed
+2019-10-24 17:45:33.815 [main] INFO  TestCases.LoginPageTest - Testing Test_ForgotPWD
+2019-10-24 17:45:33.978 [main] INFO  TestCases.LoginPageTest - Test: Test_ForgotPWD == Passed
+2019-10-24 17:45:33.980 [main] INFO  TestCases.LoginPageTest - Testing Test_NotMember
+2019-10-24 17:45:34.142 [main] INFO  TestCases.LoginPageTest - Test: Test_NotMember == Passed
+2019-10-24 17:45:34.144 [main] INFO  TestCases.LoginPageTest - Testing Test_SignUpBtn
+2019-10-24 17:45:34.290 [main] INFO  TestCases.LoginPageTest - Test: Test_SignUpBtn == Passed
+2019-10-24 17:45:34.292 [main] INFO  TestCases.LoginPageTest - Testing Test_WrongLogin
+2019-10-24 17:45:34.795 [main] INFO  TestCases.LoginPageTest - Test: Test_WrongLogin == Passed
+2019-10-24 17:45:34.797 [main] INFO  TestCases.LoginPageTest - Testing Test_CorrectLogin
+2019-10-24 17:45:35.739 [main] INFO  TestCases.LoginPageTest - Test: Test_CorrectLogin == Passed
+2019-10-24 17:45:36.522 [main] INFO  Base.TestBase - Finishing Magentrix test Thu Oct 24 17:45:36 EDT 2019
 
-2019-10-24 17:08:51.370 [main] INFO  Base.TestBase - Test execution took 8 Seconds
+2019-10-24 17:45:36.522 [main] INFO  Base.TestBase - Test execution took 9 Seconds
