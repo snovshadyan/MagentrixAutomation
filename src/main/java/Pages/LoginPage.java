@@ -129,6 +129,7 @@ WebElement Home;
         Password.sendKeys(prop.getProperty("Password"));
         LoginBtn.click();
 //        Utils.WFEV(By.xpath("//a[text()='Partner Home']"));
+        Thread.sleep(2000);
         return Home.isDisplayed();
 
     }
