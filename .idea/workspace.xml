@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b634d478-fed3-4ff8-97d7-07d2a07ec2e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MagentrixAutomation-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MagentrixAutomation-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LimeLight Automation Tests/ChromeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LimeLight Automation Tests/ChromeTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LimeLight Automation Tests/ChromeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LimeLight Automation Tests/ChromeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LimeLight_Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LimeLight_Extent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.LoginPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.LoginPageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/LimeLight Automation Tests/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/LimeLight Automation Tests/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/LimeLight Automation Tests/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/LimeLight Automation Tests/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuites/testng_Chrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuites/testng_Chrome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/LoginPageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/LimeLight_Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/LimeLight_Extent.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,6 +98,21 @@
       <option name="presentableId" value="Default" />
       <updated>1571932665118</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added wrong login test">
+      <created>1571953647494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571953647494</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added sleep">
+      <created>1572014459546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572014459546</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,5 +125,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added wrong login test" />
+    <MESSAGE value="Added sleep" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sleep" />
   </component>
 </project>

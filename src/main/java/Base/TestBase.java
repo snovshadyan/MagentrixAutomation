@@ -94,38 +94,21 @@ public class TestBase {
         return driver;
     }
 
-
+    @Parameters({"browserType"})
     @BeforeSuite
-    public void BeforeSuite(){
+    public void BeforeSuite(@Optional("Chrome") String browserType){
 
         CT = Calendar.getInstance().getTime().toString();
         log.info("Starting Magentrix test " + CT + "\n");
         startTime = System.currentTimeMillis();
-
-    }
-
-
-    @Parameters({"browserType"})
-    @BeforeClass
-    public void TestBaseSetup(@Optional("Chrome") String browserType) {
-
         try {
             setDriver(browserType);
         } catch (Exception e) {
             log.info("Error....." + e.getStackTrace());
         }
-
     }
 
 
-
-
-
-    @AfterClass
-    public void tearDown() {
-
-        driver.quit();
-    }
 
     @AfterSuite
     public void AfterSuite(){
@@ -135,6 +118,7 @@ public class TestBase {
         endTime = System.currentTimeMillis();
         long duration = (endTime - startTime)/1000;
         log.info("Test execution took "  + duration + " Seconds");
+        driver.quit();
 
     }
 
