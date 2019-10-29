@@ -1,17 +1,1523 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="2" total="74" passed="71" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-24T17:26:40 EDT" name="LimeLight Automation Tests" finished-at="2019-10-24T17:26:49 EDT" duration-ms="8880">
+  <suite started-at="2019-10-29T15:56:18 EDT" name="LimeLight Automation Tests" finished-at="2019-10-29T15:56:39 EDT" duration-ms="21628">
     <groups>
     </groups>
-    <test started-at="2019-10-24T17:26:40 EDT" name="ChromeTest" finished-at="2019-10-24T17:26:49 EDT" duration-ms="8880">
-      <class name="TestCases.LoginPageTest">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:40 EDT" name="BeforeSuite" finished-at="2019-10-24T17:26:40 EDT" duration-ms="34" status="PASS">
+    <test started-at="2019-10-29T15:56:18 EDT" name="ChromeTest" finished-at="2019-10-29T15:56:39 EDT" duration-ms="21628">
+      <class name="TestCases.HomePageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:29 EDT" name="setup" finished-at="2019-10-29T15:56:29 EDT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.TitleTest()[pri:1, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="TestBaseSetup(java.lang.String)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:40 EDT" name="TestBaseSetup" finished-at="2019-10-24T17:26:45 EDT" duration-ms="5384" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="TitleTest()[pri:1, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:29 EDT" name="TitleTest" finished-at="2019-10-29T15:56:29 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:29 EDT" name="getResults" finished-at="2019-10-29T15:56:29 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TitleTest status=SUCCESS method=HomePageTest.TitleTest()[pri:1, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:29 EDT" name="setup" finished-at="2019-10-29T15:56:29 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_HomePageLogo()[pri:2, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_HomePageLogo()[pri:2, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:29 EDT" name="Test_HomePageLogo" finished-at="2019-10-29T15:56:29 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_HomePageLogo -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:29 EDT" name="getResults" finished-at="2019-10-29T15:56:29 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_HomePageLogo status=SUCCESS method=HomePageTest.Test_HomePageLogo()[pri:2, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:29 EDT" name="setup" finished-at="2019-10-29T15:56:29 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_PartnerHome()[pri:3, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_PartnerHome()[pri:3, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:29 EDT" name="Test_PartnerHome" finished-at="2019-10-29T15:56:29 EDT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PartnerHome -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:29 EDT" name="getResults" finished-at="2019-10-29T15:56:29 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_PartnerHome status=SUCCESS method=HomePageTest.Test_PartnerHome()[pri:3, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:29 EDT" name="setup" finished-at="2019-10-29T15:56:29 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_ManageTeam()[pri:4, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_ManageTeam()[pri:4, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:29 EDT" name="Test_ManageTeam" finished-at="2019-10-29T15:56:30 EDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_ManageTeam -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="getResults" finished-at="2019-10-29T15:56:30 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_ManageTeam status=SUCCESS method=HomePageTest.Test_ManageTeam()[pri:4, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="setup" finished-at="2019-10-29T15:56:30 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_DealRegistrations()[pri:5, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_DealRegistrations()[pri:5, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="Test_DealRegistrations" finished-at="2019-10-29T15:56:30 EDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_DealRegistrations -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="getResults" finished-at="2019-10-29T15:56:30 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_DealRegistrations status=SUCCESS method=HomePageTest.Test_DealRegistrations()[pri:5, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="setup" finished-at="2019-10-29T15:56:30 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Opportunities()[pri:6, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Opportunities()[pri:6, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="Test_Opportunities" finished-at="2019-10-29T15:56:30 EDT" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Opportunities -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="getResults" finished-at="2019-10-29T15:56:30 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Opportunities status=SUCCESS method=HomePageTest.Test_Opportunities()[pri:6, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="setup" finished-at="2019-10-29T15:56:30 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Accounts()[pri:7, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Accounts()[pri:7, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="Test_Accounts" finished-at="2019-10-29T15:56:30 EDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Accounts -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="getResults" finished-at="2019-10-29T15:56:30 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Accounts status=SUCCESS method=HomePageTest.Test_Accounts()[pri:7, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="setup" finished-at="2019-10-29T15:56:30 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Resources()[pri:8, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Resources()[pri:8, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="Test_Resources" finished-at="2019-10-29T15:56:30 EDT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Resources -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="getResults" finished-at="2019-10-29T15:56:30 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Resources status=SUCCESS method=HomePageTest.Test_Resources()[pri:8, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="setup" finished-at="2019-10-29T15:56:30 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_MarketingCenter()[pri:9, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_MarketingCenter()[pri:9, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="Test_MarketingCenter" finished-at="2019-10-29T15:56:30 EDT" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_MarketingCenter -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="getResults" finished-at="2019-10-29T15:56:30 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_MarketingCenter status=SUCCESS method=HomePageTest.Test_MarketingCenter()[pri:9, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="setup" finished-at="2019-10-29T15:56:30 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Reports()[pri:10, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Reports()[pri:10, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:30 EDT" name="Test_Reports" finished-at="2019-10-29T15:56:31 EDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Reports -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:31 EDT" name="getResults" finished-at="2019-10-29T15:56:31 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Reports status=SUCCESS method=HomePageTest.Test_Reports()[pri:10, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:31 EDT" name="setup" finished-at="2019-10-29T15:56:31 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Documents()[pri:11, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Documents()[pri:11, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:31 EDT" name="Test_Documents" finished-at="2019-10-29T15:56:31 EDT" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Documents -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:31 EDT" name="getResults" finished-at="2019-10-29T15:56:31 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Documents status=SUCCESS method=HomePageTest.Test_Documents()[pri:11, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:31 EDT" name="setup" finished-at="2019-10-29T15:56:31 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_DropDown()[pri:12, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_DropDown()[pri:12, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:31 EDT" name="Test_DropDown" finished-at="2019-10-29T15:56:32 EDT" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_DropDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="setup" finished-at="2019-10-29T15:56:32 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Training()[pri:13, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="getResults" finished-at="2019-10-29T15:56:32 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_DropDown status=SUCCESS method=HomePageTest.Test_DropDown()[pri:12, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method signature="Test_Training()[pri:13, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="Test_Training" finished-at="2019-10-29T15:56:32 EDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Training -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="setup" finished-at="2019-10-29T15:56:32 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_MDF()[pri:14, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="getResults" finished-at="2019-10-29T15:56:32 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Training status=SUCCESS method=HomePageTest.Test_Training()[pri:13, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method signature="Test_MDF()[pri:14, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="Test_MDF" finished-at="2019-10-29T15:56:32 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_MDF -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="getResults" finished-at="2019-10-29T15:56:32 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_MDF status=SUCCESS method=HomePageTest.Test_MDF()[pri:14, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="setup" finished-at="2019-10-29T15:56:32 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Marketplace()[pri:15, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Marketplace()[pri:15, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="Test_Marketplace" finished-at="2019-10-29T15:56:32 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Marketplace -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="getResults" finished-at="2019-10-29T15:56:32 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Marketplace status=SUCCESS method=HomePageTest.Test_Marketplace()[pri:15, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="setup" finished-at="2019-10-29T15:56:32 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_MarketplacePublishing()[pri:16, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_MarketplacePublishing()[pri:16, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="Test_MarketplacePublishing" finished-at="2019-10-29T15:56:32 EDT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_MarketplacePublishing -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="getResults" finished-at="2019-10-29T15:56:32 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_MarketplacePublishing status=SUCCESS method=HomePageTest.Test_MarketplacePublishing()[pri:16, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="setup" finished-at="2019-10-29T15:56:32 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Ideas()[pri:17, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Ideas()[pri:17, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="Test_Ideas" finished-at="2019-10-29T15:56:32 EDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Ideas -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="getResults" finished-at="2019-10-29T15:56:32 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Ideas status=SUCCESS method=HomePageTest.Test_Ideas()[pri:17, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="setup" finished-at="2019-10-29T15:56:32 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_NewsFeed()[pri:18, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_NewsFeed()[pri:18, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="Test_NewsFeed" finished-at="2019-10-29T15:56:32 EDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_NewsFeed -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="getResults" finished-at="2019-10-29T15:56:32 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_NewsFeed status=SUCCESS method=HomePageTest.Test_NewsFeed()[pri:18, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="setup" finished-at="2019-10-29T15:56:32 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_PartnerTraining()[pri:19, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_PartnerTraining()[pri:19, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:32 EDT" name="Test_PartnerTraining" finished-at="2019-10-29T15:56:33 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PartnerTraining -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:33 EDT" name="getResults" finished-at="2019-10-29T15:56:33 EDT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_PartnerTraining status=SUCCESS method=HomePageTest.Test_PartnerTraining()[pri:19, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:33 EDT" name="setup" finished-at="2019-10-29T15:56:33 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_PortalConfiguration()[pri:20, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_PortalConfiguration()[pri:20, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:33 EDT" name="Test_PortalConfiguration" finished-at="2019-10-29T15:56:33 EDT" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PortalConfiguration -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:33 EDT" name="getResults" finished-at="2019-10-29T15:56:33 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_PortalConfiguration status=SUCCESS method=HomePageTest.Test_PortalConfiguration()[pri:20, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:33 EDT" name="setup" finished-at="2019-10-29T15:56:33 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_More()[pri:21, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_More()[pri:21, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:33 EDT" name="Test_More" finished-at="2019-10-29T15:56:33 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_More -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:33 EDT" name="getResults" finished-at="2019-10-29T15:56:33 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_More status=SUCCESS method=HomePageTest.Test_More()[pri:21, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:33 EDT" name="setup" finished-at="2019-10-29T15:56:33 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Accounts2()[pri:22, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Accounts2()[pri:22, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:33 EDT" name="Test_Accounts2" finished-at="2019-10-29T15:56:34 EDT" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Accounts2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="getResults" finished-at="2019-10-29T15:56:34 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Accounts2 status=SUCCESS method=HomePageTest.Test_Accounts2()[pri:22, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="setup" finished-at="2019-10-29T15:56:34 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_ApplianceRequestForm()[pri:23, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_ApplianceRequestForm()[pri:23, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="Test_ApplianceRequestForm" finished-at="2019-10-29T15:56:34 EDT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_ApplianceRequestForm -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="getResults" finished-at="2019-10-29T15:56:34 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_ApplianceRequestForm status=SUCCESS method=HomePageTest.Test_ApplianceRequestForm()[pri:23, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="setup" finished-at="2019-10-29T15:56:34 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Campaigns()[pri:24, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Campaigns()[pri:24, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="Test_Campaigns" finished-at="2019-10-29T15:56:34 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Campaigns -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="setup" finished-at="2019-10-29T15:56:34 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Community()[pri:25, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="getResults" finished-at="2019-10-29T15:56:34 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Campaigns status=SUCCESS method=HomePageTest.Test_Campaigns()[pri:24, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method signature="Test_Community()[pri:25, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="Test_Community" finished-at="2019-10-29T15:56:34 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Community -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="getResults" finished-at="2019-10-29T15:56:34 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Community status=SUCCESS method=HomePageTest.Test_Community()[pri:25, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="setup" finished-at="2019-10-29T15:56:34 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_CustomerHome()[pri:26, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_CustomerHome()[pri:26, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="Test_CustomerHome" finished-at="2019-10-29T15:56:34 EDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_CustomerHome -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="setup" finished-at="2019-10-29T15:56:34 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_DealRegistrations2()[pri:27, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="getResults" finished-at="2019-10-29T15:56:34 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_CustomerHome status=SUCCESS method=HomePageTest.Test_CustomerHome()[pri:26, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method signature="Test_DealRegistrations2()[pri:27, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:34 EDT" name="Test_DealRegistrations2" finished-at="2019-10-29T15:56:35 EDT" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_DealRegistrations2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="getResults" finished-at="2019-10-29T15:56:35 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_DealRegistrations2 status=SUCCESS method=HomePageTest.Test_DealRegistrations2()[pri:27, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="setup" finished-at="2019-10-29T15:56:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Directory()[pri:28, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Directory()[pri:28, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="Test_Directory" finished-at="2019-10-29T15:56:35 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Directory -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="getResults" finished-at="2019-10-29T15:56:35 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Directory status=SUCCESS method=HomePageTest.Test_Directory()[pri:28, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="setup" finished-at="2019-10-29T15:56:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Documents2()[pri:29, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Documents2()[pri:29, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="Test_Documents2" finished-at="2019-10-29T15:56:35 EDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Documents2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="getResults" finished-at="2019-10-29T15:56:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Documents2 status=SUCCESS method=HomePageTest.Test_Documents2()[pri:29, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="setup" finished-at="2019-10-29T15:56:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_EngagementDashboard()[pri:30, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_EngagementDashboard()[pri:30, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="Test_EngagementDashboard" finished-at="2019-10-29T15:56:35 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_EngagementDashboard -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="getResults" finished-at="2019-10-29T15:56:35 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_EngagementDashboard status=SUCCESS method=HomePageTest.Test_EngagementDashboard()[pri:30, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="setup" finished-at="2019-10-29T15:56:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_EventsCalendar2()[pri:31, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_EventsCalendar2()[pri:31, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="Test_EventsCalendar2" finished-at="2019-10-29T15:56:35 EDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_EventsCalendar2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="getResults" finished-at="2019-10-29T15:56:35 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_EventsCalendar2 status=SUCCESS method=HomePageTest.Test_EventsCalendar2()[pri:31, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="setup" finished-at="2019-10-29T15:56:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_TechStore()[pri:32, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_TechStore()[pri:32, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="Test_TechStore" finished-at="2019-10-29T15:56:35 EDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_TechStore -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="getResults" finished-at="2019-10-29T15:56:35 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_TechStore status=SUCCESS method=HomePageTest.Test_TechStore()[pri:32, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="setup" finished-at="2019-10-29T15:56:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Forums()[pri:33, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Forums()[pri:33, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="Test_Forums" finished-at="2019-10-29T15:56:35 EDT" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Forums -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="getResults" finished-at="2019-10-29T15:56:35 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Forums status=SUCCESS method=HomePageTest.Test_Forums()[pri:33, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="setup" finished-at="2019-10-29T15:56:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_GoToMeeting()[pri:34, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_GoToMeeting()[pri:34, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:35 EDT" name="Test_GoToMeeting" finished-at="2019-10-29T15:56:36 EDT" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_GoToMeeting -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="getResults" finished-at="2019-10-29T15:56:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_GoToMeeting status=SUCCESS method=HomePageTest.Test_GoToMeeting()[pri:34, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="setup" finished-at="2019-10-29T15:56:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Groups()[pri:35, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Groups()[pri:35, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="Test_Groups" finished-at="2019-10-29T15:56:36 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Groups -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="getResults" finished-at="2019-10-29T15:56:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Groups status=SUCCESS method=HomePageTest.Test_Groups()[pri:35, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="setup" finished-at="2019-10-29T15:56:36 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_HelpTickets()[pri:36, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_HelpTickets()[pri:36, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="Test_HelpTickets" finished-at="2019-10-29T15:56:36 EDT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_HelpTickets -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="getResults" finished-at="2019-10-29T15:56:36 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_HelpTickets status=SUCCESS method=HomePageTest.Test_HelpTickets()[pri:36, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="setup" finished-at="2019-10-29T15:56:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Ideas2()[pri:37, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Ideas2()[pri:37, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="Test_Ideas2" finished-at="2019-10-29T15:56:36 EDT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Ideas2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="getResults" finished-at="2019-10-29T15:56:36 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Ideas2 status=SUCCESS method=HomePageTest.Test_Ideas2()[pri:37, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="setup" finished-at="2019-10-29T15:56:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_KnowledgeBase()[pri:38, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_KnowledgeBase()[pri:38, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="Test_KnowledgeBase" finished-at="2019-10-29T15:56:36 EDT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_KnowledgeBase -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="getResults" finished-at="2019-10-29T15:56:36 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_KnowledgeBase status=SUCCESS method=HomePageTest.Test_KnowledgeBase()[pri:38, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="setup" finished-at="2019-10-29T15:56:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_LLPlaybox()[pri:39, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_LLPlaybox()[pri:39, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="Test_LLPlaybox" finished-at="2019-10-29T15:56:36 EDT" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_LLPlaybox -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="getResults" finished-at="2019-10-29T15:56:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_LLPlaybox status=SUCCESS method=HomePageTest.Test_LLPlaybox()[pri:39, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="setup" finished-at="2019-10-29T15:56:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_ManageTeam2()[pri:40, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_ManageTeam2()[pri:40, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:36 EDT" name="Test_ManageTeam2" finished-at="2019-10-29T15:56:37 EDT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_ManageTeam2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="getResults" finished-at="2019-10-29T15:56:37 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_ManageTeam2 status=SUCCESS method=HomePageTest.Test_ManageTeam2()[pri:40, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="setup" finished-at="2019-10-29T15:56:37 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_MarketingCenter2()[pri:41, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_MarketingCenter2()[pri:41, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="Test_MarketingCenter2" finished-at="2019-10-29T15:56:37 EDT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_MarketingCenter2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="getResults" finished-at="2019-10-29T15:56:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_MarketingCenter2 status=SUCCESS method=HomePageTest.Test_MarketingCenter2()[pri:41, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="setup" finished-at="2019-10-29T15:56:37 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Marketplace2()[pri:42, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Marketplace2()[pri:42, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="Test_Marketplace2" finished-at="2019-10-29T15:56:37 EDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Marketplace2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="getResults" finished-at="2019-10-29T15:56:37 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Marketplace2 status=SUCCESS method=HomePageTest.Test_Marketplace2()[pri:42, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="setup" finished-at="2019-10-29T15:56:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_MarketplacePublishing2()[pri:43, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_MarketplacePublishing2()[pri:43, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="Test_MarketplacePublishing2" finished-at="2019-10-29T15:56:37 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_MarketplacePublishing2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="getResults" finished-at="2019-10-29T15:56:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_MarketplacePublishing2 status=SUCCESS method=HomePageTest.Test_MarketplacePublishing2()[pri:43, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="setup" finished-at="2019-10-29T15:56:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_MDFRequests()[pri:44, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_MDFRequests()[pri:44, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="Test_MDFRequests" finished-at="2019-10-29T15:56:37 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_MDFRequests -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="getResults" finished-at="2019-10-29T15:56:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_MDFRequests status=SUCCESS method=HomePageTest.Test_MDFRequests()[pri:44, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="setup" finished-at="2019-10-29T15:56:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_NewPartnerTraining()[pri:45, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_NewPartnerTraining()[pri:45, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="Test_NewPartnerTraining" finished-at="2019-10-29T15:56:37 EDT" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_NewPartnerTraining -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="getResults" finished-at="2019-10-29T15:56:37 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_NewPartnerTraining status=SUCCESS method=HomePageTest.Test_NewPartnerTraining()[pri:45, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="setup" finished-at="2019-10-29T15:56:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Newsfeed()[pri:46, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Newsfeed()[pri:46, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="Test_Newsfeed" finished-at="2019-10-29T15:56:37 EDT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Newsfeed -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="getResults" finished-at="2019-10-29T15:56:37 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Newsfeed status=SUCCESS method=HomePageTest.Test_Newsfeed()[pri:46, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="setup" finished-at="2019-10-29T15:56:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Opportunities2()[pri:47, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Opportunities2()[pri:47, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:37 EDT" name="Test_Opportunities2" finished-at="2019-10-29T15:56:38 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Opportunities2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="getResults" finished-at="2019-10-29T15:56:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Opportunities2 status=SUCCESS method=HomePageTest.Test_Opportunities2()[pri:47, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="setup" finished-at="2019-10-29T15:56:38 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_PartnerDashboard()[pri:48, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_PartnerDashboard()[pri:48, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="Test_PartnerDashboard" finished-at="2019-10-29T15:56:38 EDT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PartnerDashboard -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="getResults" finished-at="2019-10-29T15:56:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_PartnerDashboard status=SUCCESS method=HomePageTest.Test_PartnerDashboard()[pri:48, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="setup" finished-at="2019-10-29T15:56:38 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_PartnerHome2()[pri:49, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_PartnerHome2()[pri:49, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="Test_PartnerHome2" finished-at="2019-10-29T15:56:38 EDT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PartnerHome2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="getResults" finished-at="2019-10-29T15:56:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_PartnerHome2 status=SUCCESS method=HomePageTest.Test_PartnerHome2()[pri:49, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="setup" finished-at="2019-10-29T15:56:38 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Pipeline()[pri:50, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Pipeline()[pri:50, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="Test_Pipeline" finished-at="2019-10-29T15:56:38 EDT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Pipeline -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="getResults" finished-at="2019-10-29T15:56:38 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Pipeline status=SUCCESS method=HomePageTest.Test_Pipeline()[pri:50, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="setup" finished-at="2019-10-29T15:56:38 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Playbooks()[pri:51, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Playbooks()[pri:51, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="Test_Playbooks" finished-at="2019-10-29T15:56:38 EDT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Playbooks -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="getResults" finished-at="2019-10-29T15:56:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Playbooks status=SUCCESS method=HomePageTest.Test_Playbooks()[pri:51, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="setup" finished-at="2019-10-29T15:56:38 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_PortalConfiguration2()[pri:52, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_PortalConfiguration2()[pri:52, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="Test_PortalConfiguration2" finished-at="2019-10-29T15:56:38 EDT" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PortalConfiguration2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="getResults" finished-at="2019-10-29T15:56:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_PortalConfiguration2 status=SUCCESS method=HomePageTest.Test_PortalConfiguration2()[pri:52, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="setup" finished-at="2019-10-29T15:56:38 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_PRMHome()[pri:53, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_PRMHome()[pri:53, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="Test_PRMHome" finished-at="2019-10-29T15:56:38 EDT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PRMHome -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="getResults" finished-at="2019-10-29T15:56:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_PRMHome status=SUCCESS method=HomePageTest.Test_PRMHome()[pri:53, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="setup" finished-at="2019-10-29T15:56:38 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Reports2()[pri:54, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Reports2()[pri:54, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:38 EDT" name="Test_Reports2" finished-at="2019-10-29T15:56:39 EDT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Reports2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="getResults" finished-at="2019-10-29T15:56:39 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Reports2 status=SUCCESS method=HomePageTest.Test_Reports2()[pri:54, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="setup" finished-at="2019-10-29T15:56:39 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Resources2()[pri:55, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Resources2()[pri:55, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="Test_Resources2" finished-at="2019-10-29T15:56:39 EDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Resources2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="getResults" finished-at="2019-10-29T15:56:39 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Resources2 status=SUCCESS method=HomePageTest.Test_Resources2()[pri:55, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="setup" finished-at="2019-10-29T15:56:39 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_StartHere()[pri:56, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_StartHere()[pri:56, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="Test_StartHere" finished-at="2019-10-29T15:56:39 EDT" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_StartHere -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="getResults" finished-at="2019-10-29T15:56:39 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_StartHere status=SUCCESS method=HomePageTest.Test_StartHere()[pri:56, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="setup" finished-at="2019-10-29T15:56:39 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_Training2()[pri:57, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Training2()[pri:57, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="Test_Training2" finished-at="2019-10-29T15:56:39 EDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Training2 -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="getResults" finished-at="2019-10-29T15:56:39 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Training2 status=SUCCESS method=HomePageTest.Test_Training2()[pri:57, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="setup" finished-at="2019-10-29T15:56:39 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.Test_UpdateOpportunity()[pri:58, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_UpdateOpportunity()[pri:58, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="Test_UpdateOpportunity" finished-at="2019-10-29T15:56:39 EDT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_UpdateOpportunity -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@3eb91815]" started-at="2019-10-29T15:56:39 EDT" name="getResults" finished-at="2019-10-29T15:56:39 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_UpdateOpportunity status=SUCCESS method=HomePageTest.Test_UpdateOpportunity()[pri:58, instance:TestCases.HomePageTest@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- TestCases.HomePageTest -->
+      <class name="TestCases.LoginPageTest">
+        <test-method is-config="true" signature="BeforeSuite(java.lang.String)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:12 EDT" name="BeforeSuite" finished-at="2019-10-29T15:56:18 EDT" duration-ms="5359" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,350 +1527,453 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestBaseSetup -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="setup" finished-at="2019-10-24T17:26:45 EDT" duration-ms="19" status="PASS">
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="setup" finished-at="2019-10-29T15:56:18 EDT" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.TitleTest()[pri:1, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.TitleTest()[pri:1, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TitleTest()[pri:1, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="TitleTest" finished-at="2019-10-24T17:26:45 EDT" duration-ms="12" status="PASS">
+        <test-method signature="TitleTest()[pri:1, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="TitleTest" finished-at="2019-10-29T15:56:18 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TitleTest -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="getResults" finished-at="2019-10-24T17:26:45 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="getResults" finished-at="2019-10-29T15:56:18 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TitleTest status=SUCCESS method=LoginPageTest.TitleTest()[pri:1, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=TitleTest status=SUCCESS method=LoginPageTest.TitleTest()[pri:1, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="setup" finished-at="2019-10-24T17:26:45 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="setup" finished-at="2019-10-29T15:56:18 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_Logo()[pri:2, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_Logo()[pri:2, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Logo()[pri:2, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="Test_Logo" finished-at="2019-10-24T17:26:45 EDT" duration-ms="179" status="PASS">
+        <test-method signature="Test_Logo()[pri:2, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="Test_Logo" finished-at="2019-10-29T15:56:18 EDT" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Logo -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="getResults" finished-at="2019-10-24T17:26:45 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="getResults" finished-at="2019-10-29T15:56:18 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_Logo status=SUCCESS method=LoginPageTest.Test_Logo()[pri:2, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_Logo status=SUCCESS method=LoginPageTest.Test_Logo()[pri:2, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="setup" finished-at="2019-10-24T17:26:45 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="setup" finished-at="2019-10-29T15:56:18 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_TopSignUp()[pri:3, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_TopSignUp()[pri:3, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_TopSignUp()[pri:3, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:45 EDT" name="Test_TopSignUp" finished-at="2019-10-24T17:26:46 EDT" duration-ms="165" status="PASS">
+        <test-method signature="Test_TopSignUp()[pri:3, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="Test_TopSignUp" finished-at="2019-10-29T15:56:18 EDT" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_TopSignUp -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="getResults" finished-at="2019-10-29T15:56:18 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_TopSignUp status=SUCCESS method=LoginPageTest.Test_TopSignUp()[pri:3, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_TopSignUp status=SUCCESS method=LoginPageTest.Test_TopSignUp()[pri:3, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="setup" finished-at="2019-10-29T15:56:18 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_TopSignIn()[pri:4, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_TopSignIn()[pri:4, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_TopSignIn()[pri:4, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_TopSignIn" finished-at="2019-10-24T17:26:46 EDT" duration-ms="161" status="PASS">
+        <test-method signature="Test_TopSignIn()[pri:4, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="Test_TopSignIn" finished-at="2019-10-29T15:56:18 EDT" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_TopSignIn -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="getResults" finished-at="2019-10-29T15:56:18 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_TopSignIn status=SUCCESS method=LoginPageTest.Test_TopSignIn()[pri:4, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_TopSignIn status=SUCCESS method=LoginPageTest.Test_TopSignIn()[pri:4, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="setup" finished-at="2019-10-29T15:56:18 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_Welcome()[pri:5, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_Welcome()[pri:5, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Welcome()[pri:5, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_Welcome" finished-at="2019-10-24T17:26:46 EDT" duration-ms="172" status="PASS">
+        <test-method signature="Test_Welcome()[pri:5, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="Test_Welcome" finished-at="2019-10-29T15:56:18 EDT" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Welcome -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="getResults" finished-at="2019-10-29T15:56:18 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_Welcome status=SUCCESS method=LoginPageTest.Test_Welcome()[pri:5, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_Welcome status=SUCCESS method=LoginPageTest.Test_Welcome()[pri:5, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="setup" finished-at="2019-10-29T15:56:18 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_UserName()[pri:6, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_UserName()[pri:6, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_UserName()[pri:6, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_UserName" finished-at="2019-10-24T17:26:46 EDT" duration-ms="156" status="PASS">
+        <test-method signature="Test_UserName()[pri:6, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="Test_UserName" finished-at="2019-10-29T15:56:18 EDT" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_UserName -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="getResults" finished-at="2019-10-29T15:56:18 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_UserName status=SUCCESS method=LoginPageTest.Test_UserName()[pri:6, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_UserName status=SUCCESS method=LoginPageTest.Test_UserName()[pri:6, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="setup" finished-at="2019-10-29T15:56:18 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_Password()[pri:7, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_Password()[pri:7, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Password()[pri:7, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_Password" finished-at="2019-10-24T17:26:46 EDT" duration-ms="158" status="PASS">
+        <test-method signature="Test_Password()[pri:7, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:18 EDT" name="Test_Password" finished-at="2019-10-29T15:56:19 EDT" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Password -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="getResults" finished-at="2019-10-29T15:56:19 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_Password status=SUCCESS method=LoginPageTest.Test_Password()[pri:7, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_Password status=SUCCESS method=LoginPageTest.Test_Password()[pri:7, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="setup" finished-at="2019-10-29T15:56:19 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_LoginBtn()[pri:8, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_LoginBtn()[pri:8, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_LoginBtn()[pri:8, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_LoginBtn" finished-at="2019-10-24T17:26:46 EDT" duration-ms="175" status="PASS">
+        <test-method signature="Test_LoginBtn()[pri:8, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="Test_LoginBtn" finished-at="2019-10-29T15:56:19 EDT" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LoginBtn -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="getResults" finished-at="2019-10-24T17:26:46 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="getResults" finished-at="2019-10-29T15:56:19 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_LoginBtn status=SUCCESS method=LoginPageTest.Test_LoginBtn()[pri:8, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_LoginBtn status=SUCCESS method=LoginPageTest.Test_LoginBtn()[pri:8, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="setup" finished-at="2019-10-24T17:26:46 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="setup" finished-at="2019-10-29T15:56:19 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_RememberMe()[pri:9, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_RememberMe()[pri:9, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_RememberMe()[pri:9, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:46 EDT" name="Test_RememberMe" finished-at="2019-10-24T17:26:47 EDT" duration-ms="145" status="PASS">
+        <test-method signature="Test_RememberMe()[pri:9, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="Test_RememberMe" finished-at="2019-10-29T15:56:19 EDT" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_RememberMe -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="getResults" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="getResults" finished-at="2019-10-29T15:56:19 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_RememberMe status=SUCCESS method=LoginPageTest.Test_RememberMe()[pri:9, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_RememberMe status=SUCCESS method=LoginPageTest.Test_RememberMe()[pri:9, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="setup" finished-at="2019-10-24T17:26:47 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="setup" finished-at="2019-10-29T15:56:19 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_ForgotPWD()[pri:10, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_ForgotPWD()[pri:10, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_ForgotPWD()[pri:10, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="Test_ForgotPWD" finished-at="2019-10-24T17:26:47 EDT" duration-ms="159" status="PASS">
+        <test-method signature="Test_ForgotPWD()[pri:10, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="Test_ForgotPWD" finished-at="2019-10-29T15:56:19 EDT" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_ForgotPWD -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="getResults" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="getResults" finished-at="2019-10-29T15:56:19 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_ForgotPWD status=SUCCESS method=LoginPageTest.Test_ForgotPWD()[pri:10, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_ForgotPWD status=SUCCESS method=LoginPageTest.Test_ForgotPWD()[pri:10, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="setup" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="setup" finished-at="2019-10-29T15:56:19 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_NotMember()[pri:11, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_NotMember()[pri:11, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_NotMember()[pri:11, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="Test_NotMember" finished-at="2019-10-24T17:26:47 EDT" duration-ms="153" status="PASS">
+        <test-method signature="Test_NotMember()[pri:11, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="Test_NotMember" finished-at="2019-10-29T15:56:19 EDT" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_NotMember -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="getResults" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="getResults" finished-at="2019-10-29T15:56:19 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_NotMember status=SUCCESS method=LoginPageTest.Test_NotMember()[pri:11, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_NotMember status=SUCCESS method=LoginPageTest.Test_NotMember()[pri:11, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="setup" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="setup" finished-at="2019-10-29T15:56:19 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_SignUpBtn()[pri:12, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_SignUpBtn()[pri:12, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_SignUpBtn()[pri:12, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="Test_SignUpBtn" finished-at="2019-10-24T17:26:47 EDT" duration-ms="144" status="PASS">
+        <test-method signature="Test_SignUpBtn()[pri:12, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="Test_SignUpBtn" finished-at="2019-10-29T15:56:19 EDT" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_SignUpBtn -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="getResults" finished-at="2019-10-24T17:26:47 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="getResults" finished-at="2019-10-29T15:56:19 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_SignUpBtn status=SUCCESS method=LoginPageTest.Test_SignUpBtn()[pri:12, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_SignUpBtn status=SUCCESS method=LoginPageTest.Test_SignUpBtn()[pri:12, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="setup" finished-at="2019-10-24T17:26:47 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="setup" finished-at="2019-10-29T15:56:19 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_Login()[pri:13, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_WrongLogin()[pri:13, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Login()[pri:13, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:47 EDT" name="Test_Login" finished-at="2019-10-24T17:26:48 EDT" duration-ms="878" status="PASS">
+        <test-method signature="Test_WrongLogin()[pri:13, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:19 EDT" name="Test_WrongLogin" finished-at="2019-10-29T15:56:25 EDT" duration-ms="5858" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Your login attempt has failed. The username or password may be incorrect, or your access may be restricted. Please contact the administrator for help.']"}
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PC05', ip: '192.168.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SIMON~1.NOV\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7203a82eb27883d8c11df15f01080e13
+*** Element info: {Using=xpath, value=//span[text()='Your login attempt has failed. The username or password may be incorrect, or your access may be restricted. Please contact the administrator for help.']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Your login attempt has failed. The username or password may be incorrect, or your access may be restricted. Please contact the administrator for help.']"}
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PC05', ip: '192.168.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SIMON~1.NOV\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7203a82eb27883d8c11df15f01080e13
+*** Element info: {Using=xpath, value=//span[text()='Your login attempt has failed. The username or password may be incorrect, or your access may be restricted. Please contact the administrator for help.']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy27.isDisplayed(Unknown Source)
+at Pages.LoginPage.verify_WrongLogin(LoginPage.java:120)
+at TestCases.LoginPageTest.Test_WrongLogin(LoginPageTest.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.TestRunner.privateRun(TestRunner.java:763)
+at org.testng.TestRunner.run(TestRunner.java:594)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:48 EDT" name="getResults" finished-at="2019-10-24T17:26:48 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- Test_WrongLogin -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:25 EDT" name="getResults" finished-at="2019-10-29T15:56:26 EDT" duration-ms="363" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_Login status=SUCCESS method=LoginPageTest.Test_Login()[pri:13, instance:TestCases.LoginPageTest@3576ddc2] output={null}]]]>
+                <![CDATA[[TestResult name=Test_WrongLogin status=FAILURE method=LoginPageTest.Test_WrongLogin()[pri:13, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResults -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:48 EDT" name="tearDown" finished-at="2019-10-24T17:26:49 EDT" duration-ms="765" status="PASS">
+        <test-method signature="Test_CorrectLogin()[pri:14, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:26 EDT" name="Test_CorrectLogin" finished-at="2019-10-29T15:56:29 EDT" duration-ms="3437" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:TestCases.LoginPageTest@3576ddc2]" started-at="2019-10-24T17:26:49 EDT" name="AfterSuite" finished-at="2019-10-24T17:26:49 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- Test_CorrectLogin -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:26 EDT" name="setup" finished-at="2019-10-29T15:56:26 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.Test_CorrectLogin()[pri:14, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:29 EDT" name="getResults" finished-at="2019-10-29T15:56:29 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_CorrectLogin status=SUCCESS method=LoginPageTest.Test_CorrectLogin()[pri:14, instance:TestCases.LoginPageTest@5e17553a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:TestCases.LoginPageTest@5e17553a]" started-at="2019-10-29T15:56:39 EDT" name="AfterSuite" finished-at="2019-10-29T15:56:40 EDT" duration-ms="727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->

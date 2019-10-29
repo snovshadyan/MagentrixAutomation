@@ -1,4 +1,5 @@
 Pages\LoginPage.class
 Utilities\Utils.class
+Pages\HomePage.class
 Base\TestBase.class
 ExtentReportListener\ExtentReporterNG.class

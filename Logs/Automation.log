@@ -1,151 +1,151 @@
-2019-10-29 14:25:59.247 [main] INFO  Base.TestBase - Starting Magentrix test Tue Oct 29 14:25:59 EDT 2019
+2019-10-29 16:00:31.831 [main] INFO  Base.TestBase - Starting Magentrix test Tue Oct 29 16:00:31 EDT 2019
 
-2019-10-29 14:26:02.168 [main] INFO  Base.TestBase - Launching Chrome browser
+2019-10-29 16:00:34.737 [main] INFO  Base.TestBase - Launching Chrome browser
 
-2019-10-29 14:26:04.838 [main] INFO  TestCases.LoginPageTest - Testing TitleTest
-2019-10-29 14:26:04.854 [main] INFO  TestCases.LoginPageTest - Test: TitleTest == Passed
-2019-10-29 14:26:04.859 [main] INFO  TestCases.LoginPageTest - Testing Test_Logo
-2019-10-29 14:26:05.039 [main] INFO  TestCases.LoginPageTest - Test: Test_Logo == Passed
-2019-10-29 14:26:05.041 [main] INFO  TestCases.LoginPageTest - Testing Test_TopSignUp
-2019-10-29 14:26:05.203 [main] INFO  TestCases.LoginPageTest - Test: Test_TopSignUp == Passed
-2019-10-29 14:26:05.204 [main] INFO  TestCases.LoginPageTest - Testing Test_TopSignIn
-2019-10-29 14:26:05.361 [main] INFO  TestCases.LoginPageTest - Test: Test_TopSignIn == Passed
-2019-10-29 14:26:05.362 [main] INFO  TestCases.LoginPageTest - Testing Test_Welcome
-2019-10-29 14:26:05.529 [main] INFO  TestCases.LoginPageTest - Test: Test_Welcome == Passed
-2019-10-29 14:26:05.533 [main] INFO  TestCases.LoginPageTest - Testing Test_UserName
-2019-10-29 14:26:05.687 [main] INFO  TestCases.LoginPageTest - Test: Test_UserName == Passed
-2019-10-29 14:26:05.689 [main] INFO  TestCases.LoginPageTest - Testing Test_Password
-2019-10-29 14:26:05.853 [main] INFO  TestCases.LoginPageTest - Test: Test_Password == Passed
-2019-10-29 14:26:05.855 [main] INFO  TestCases.LoginPageTest - Testing Test_LoginBtn
-2019-10-29 14:26:06.011 [main] INFO  TestCases.LoginPageTest - Test: Test_LoginBtn == Passed
-2019-10-29 14:26:06.012 [main] INFO  TestCases.LoginPageTest - Testing Test_RememberMe
-2019-10-29 14:26:06.175 [main] INFO  TestCases.LoginPageTest - Test: Test_RememberMe == Passed
-2019-10-29 14:26:06.176 [main] INFO  TestCases.LoginPageTest - Testing Test_ForgotPWD
-2019-10-29 14:26:06.339 [main] INFO  TestCases.LoginPageTest - Test: Test_ForgotPWD == Passed
-2019-10-29 14:26:06.340 [main] INFO  TestCases.LoginPageTest - Testing Test_NotMember
-2019-10-29 14:26:06.496 [main] INFO  TestCases.LoginPageTest - Test: Test_NotMember == Passed
-2019-10-29 14:26:06.498 [main] INFO  TestCases.LoginPageTest - Testing Test_SignUpBtn
-2019-10-29 14:26:06.635 [main] INFO  TestCases.LoginPageTest - Test: Test_SignUpBtn == Passed
-2019-10-29 14:26:06.636 [main] INFO  TestCases.LoginPageTest - Testing Test_WrongLogin
-2019-10-29 14:26:08.195 [main] INFO  TestCases.LoginPageTest - Test: Test_WrongLogin == Passed
-2019-10-29 14:26:08.197 [main] INFO  TestCases.LoginPageTest - Testing Test_CorrectLogin
-2019-10-29 14:26:14.216 [main] INFO  TestCases.LoginPageTest - Test: Test_CorrectLogin == Passed
-2019-10-29 14:26:14.222 [main] INFO  TestCases.LoginPageTest - Testing TitleTest
-2019-10-29 14:26:14.228 [main] INFO  TestCases.LoginPageTest - Test: TitleTest == Passed
-2019-10-29 14:26:14.231 [main] INFO  TestCases.LoginPageTest - Testing Test_HomePageLogo
-2019-10-29 14:26:14.377 [main] INFO  TestCases.LoginPageTest - Test: Test_HomePageLogo == Passed
-2019-10-29 14:26:14.379 [main] INFO  TestCases.LoginPageTest - Testing Test_PartnerHome
-2019-10-29 14:26:14.559 [main] INFO  TestCases.LoginPageTest - Test: Test_PartnerHome == Passed
-2019-10-29 14:26:14.561 [main] INFO  TestCases.LoginPageTest - Testing Test_ManageTeam
-2019-10-29 14:26:14.717 [main] INFO  TestCases.LoginPageTest - Test: Test_ManageTeam == Passed
-2019-10-29 14:26:14.719 [main] INFO  TestCases.LoginPageTest - Testing Test_DealRegistrations
-2019-10-29 14:26:14.877 [main] INFO  TestCases.LoginPageTest - Test: Test_DealRegistrations == Passed
-2019-10-29 14:26:14.879 [main] INFO  TestCases.LoginPageTest - Testing Test_Opportunities
-2019-10-29 14:26:15.043 [main] INFO  TestCases.LoginPageTest - Test: Test_Opportunities == Passed
-2019-10-29 14:26:15.045 [main] INFO  TestCases.LoginPageTest - Testing Test_Accounts
-2019-10-29 14:26:15.206 [main] INFO  TestCases.LoginPageTest - Test: Test_Accounts == Passed
-2019-10-29 14:26:15.208 [main] INFO  TestCases.LoginPageTest - Testing Test_Resources
-2019-10-29 14:26:15.359 [main] INFO  TestCases.LoginPageTest - Test: Test_Resources == Passed
-2019-10-29 14:26:15.361 [main] INFO  TestCases.LoginPageTest - Testing Test_MarketingCenter
-2019-10-29 14:26:15.509 [main] INFO  TestCases.LoginPageTest - Test: Test_MarketingCenter == Passed
-2019-10-29 14:26:15.512 [main] INFO  TestCases.LoginPageTest - Testing Test_Reports
-2019-10-29 14:26:15.671 [main] INFO  TestCases.LoginPageTest - Test: Test_Reports == Passed
-2019-10-29 14:26:15.673 [main] INFO  TestCases.LoginPageTest - Testing Test_Documents
-2019-10-29 14:26:15.825 [main] INFO  TestCases.LoginPageTest - Test: Test_Documents == Passed
-2019-10-29 14:26:15.827 [main] INFO  TestCases.LoginPageTest - Testing Test_DropDown
-2019-10-29 14:26:16.684 [main] INFO  TestCases.LoginPageTest - Test: Test_DropDown == Passed
-2019-10-29 14:26:16.686 [main] INFO  TestCases.LoginPageTest - Testing Test_Training
-2019-10-29 14:26:16.837 [main] INFO  TestCases.LoginPageTest - Test: Test_Training == Passed
-2019-10-29 14:26:16.838 [main] INFO  TestCases.LoginPageTest - Testing Test_MDF
-2019-10-29 14:26:17.009 [main] INFO  TestCases.LoginPageTest - Test: Test_MDF == Passed
-2019-10-29 14:26:17.011 [main] INFO  TestCases.LoginPageTest - Testing Test_Marketplace
-2019-10-29 14:26:17.170 [main] INFO  TestCases.LoginPageTest - Test: Test_Marketplace == Passed
-2019-10-29 14:26:17.171 [main] INFO  TestCases.LoginPageTest - Testing Test_MarketplacePublishing
-2019-10-29 14:26:17.321 [main] INFO  TestCases.LoginPageTest - Test: Test_MarketplacePublishing == Passed
-2019-10-29 14:26:17.323 [main] INFO  TestCases.LoginPageTest - Testing Test_Ideas
-2019-10-29 14:26:17.470 [main] INFO  TestCases.LoginPageTest - Test: Test_Ideas == Passed
-2019-10-29 14:26:17.471 [main] INFO  TestCases.LoginPageTest - Testing Test_NewsFeed
-2019-10-29 14:26:17.613 [main] INFO  TestCases.LoginPageTest - Test: Test_NewsFeed == Passed
-2019-10-29 14:26:17.614 [main] INFO  TestCases.LoginPageTest - Testing Test_PartnerTraining
-2019-10-29 14:26:17.760 [main] INFO  TestCases.LoginPageTest - Test: Test_PartnerTraining == Passed
-2019-10-29 14:26:17.762 [main] INFO  TestCases.LoginPageTest - Testing Test_PortalConfiguration
-2019-10-29 14:26:17.903 [main] INFO  TestCases.LoginPageTest - Test: Test_PortalConfiguration == Passed
-2019-10-29 14:26:17.904 [main] INFO  TestCases.LoginPageTest - Testing Test_More
-2019-10-29 14:26:18.048 [main] INFO  TestCases.LoginPageTest - Test: Test_More == Passed
-2019-10-29 14:26:18.049 [main] INFO  TestCases.LoginPageTest - Testing Test_Accounts2
-2019-10-29 14:26:19.030 [main] INFO  TestCases.LoginPageTest - Test: Test_Accounts2 == Passed
-2019-10-29 14:26:19.032 [main] INFO  TestCases.LoginPageTest - Testing Test_ApplianceRequestForm
-2019-10-29 14:26:19.172 [main] INFO  TestCases.LoginPageTest - Test: Test_ApplianceRequestForm == Passed
-2019-10-29 14:26:19.173 [main] INFO  TestCases.LoginPageTest - Testing Test_Campaigns
-2019-10-29 14:26:19.316 [main] INFO  TestCases.LoginPageTest - Test: Test_Campaigns == Passed
-2019-10-29 14:26:19.317 [main] INFO  TestCases.LoginPageTest - Testing Test_Community
-2019-10-29 14:26:19.460 [main] INFO  TestCases.LoginPageTest - Test: Test_Community == Passed
-2019-10-29 14:26:19.462 [main] INFO  TestCases.LoginPageTest - Testing Test_CustomerHome
-2019-10-29 14:26:19.604 [main] INFO  TestCases.LoginPageTest - Test: Test_CustomerHome == Passed
-2019-10-29 14:26:19.606 [main] INFO  TestCases.LoginPageTest - Testing Test_DealRegistrations2
-2019-10-29 14:26:19.747 [main] INFO  TestCases.LoginPageTest - Test: Test_DealRegistrations2 == Passed
-2019-10-29 14:26:19.749 [main] INFO  TestCases.LoginPageTest - Testing Test_Directory
-2019-10-29 14:26:19.893 [main] INFO  TestCases.LoginPageTest - Test: Test_Directory == Passed
-2019-10-29 14:26:19.894 [main] INFO  TestCases.LoginPageTest - Testing Test_Documents2
-2019-10-29 14:26:20.051 [main] INFO  TestCases.LoginPageTest - Test: Test_Documents2 == Passed
-2019-10-29 14:26:20.052 [main] INFO  TestCases.LoginPageTest - Testing Test_EngagementDashboard
-2019-10-29 14:26:20.199 [main] INFO  TestCases.LoginPageTest - Test: Test_EngagementDashboard == Passed
-2019-10-29 14:26:20.200 [main] INFO  TestCases.LoginPageTest - Testing Test_EventsCalendar2
-2019-10-29 14:26:20.341 [main] INFO  TestCases.LoginPageTest - Test: Test_EventsCalendar2 == Passed
-2019-10-29 14:26:20.342 [main] INFO  TestCases.LoginPageTest - Testing Test_TechStore
-2019-10-29 14:26:20.484 [main] INFO  TestCases.LoginPageTest - Test: Test_TechStore == Passed
-2019-10-29 14:26:20.486 [main] INFO  TestCases.LoginPageTest - Testing Test_Forums
-2019-10-29 14:26:20.626 [main] INFO  TestCases.LoginPageTest - Test: Test_Forums == Passed
-2019-10-29 14:26:20.628 [main] INFO  TestCases.LoginPageTest - Testing Test_GoToMeeting
-2019-10-29 14:26:20.768 [main] INFO  TestCases.LoginPageTest - Test: Test_GoToMeeting == Passed
-2019-10-29 14:26:20.769 [main] INFO  TestCases.LoginPageTest - Testing Test_Groups
-2019-10-29 14:26:20.912 [main] INFO  TestCases.LoginPageTest - Test: Test_Groups == Passed
-2019-10-29 14:26:20.913 [main] INFO  TestCases.LoginPageTest - Testing Test_HelpTickets
-2019-10-29 14:26:21.056 [main] INFO  TestCases.LoginPageTest - Test: Test_HelpTickets == Passed
-2019-10-29 14:26:21.057 [main] INFO  TestCases.LoginPageTest - Testing Test_Ideas2
-2019-10-29 14:26:21.204 [main] INFO  TestCases.LoginPageTest - Test: Test_Ideas2 == Passed
-2019-10-29 14:26:21.205 [main] INFO  TestCases.LoginPageTest - Testing Test_KnowledgeBase
-2019-10-29 14:26:21.356 [main] INFO  TestCases.LoginPageTest - Test: Test_KnowledgeBase == Passed
-2019-10-29 14:26:21.358 [main] INFO  TestCases.LoginPageTest - Testing Test_LLPlaybox
-2019-10-29 14:26:21.504 [main] INFO  TestCases.LoginPageTest - Test: Test_LLPlaybox == Passed
-2019-10-29 14:26:21.505 [main] INFO  TestCases.LoginPageTest - Testing Test_ManageTeam2
-2019-10-29 14:26:21.645 [main] INFO  TestCases.LoginPageTest - Test: Test_ManageTeam2 == Passed
-2019-10-29 14:26:21.646 [main] INFO  TestCases.LoginPageTest - Testing Test_MarketingCenter2
-2019-10-29 14:26:21.792 [main] INFO  TestCases.LoginPageTest - Test: Test_MarketingCenter2 == Passed
-2019-10-29 14:26:21.794 [main] INFO  TestCases.LoginPageTest - Testing Test_Marketplace2
-2019-10-29 14:26:21.933 [main] INFO  TestCases.LoginPageTest - Test: Test_Marketplace2 == Passed
-2019-10-29 14:26:21.935 [main] INFO  TestCases.LoginPageTest - Testing Test_MarketplacePublishing2
-2019-10-29 14:26:22.078 [main] INFO  TestCases.LoginPageTest - Test: Test_MarketplacePublishing2 == Passed
-2019-10-29 14:26:22.079 [main] INFO  TestCases.LoginPageTest - Testing Test_MDFRequests
-2019-10-29 14:26:22.219 [main] INFO  TestCases.LoginPageTest - Test: Test_MDFRequests == Passed
-2019-10-29 14:26:22.220 [main] INFO  TestCases.LoginPageTest - Testing Test_NewPartnerTraining
-2019-10-29 14:26:22.359 [main] INFO  TestCases.LoginPageTest - Test: Test_NewPartnerTraining == Passed
-2019-10-29 14:26:22.359 [main] INFO  TestCases.LoginPageTest - Testing Test_Newsfeed
-2019-10-29 14:26:22.503 [main] INFO  TestCases.LoginPageTest - Test: Test_Newsfeed == Passed
-2019-10-29 14:26:22.504 [main] INFO  TestCases.LoginPageTest - Testing Test_Opportunities2
-2019-10-29 14:26:22.643 [main] INFO  TestCases.LoginPageTest - Test: Test_Opportunities2 == Passed
-2019-10-29 14:26:22.644 [main] INFO  TestCases.LoginPageTest - Testing Test_PartnerDashboard
-2019-10-29 14:26:22.780 [main] INFO  TestCases.LoginPageTest - Test: Test_PartnerDashboard == Passed
-2019-10-29 14:26:22.781 [main] INFO  TestCases.LoginPageTest - Testing Test_PartnerHome2
-2019-10-29 14:26:22.921 [main] INFO  TestCases.LoginPageTest - Test: Test_PartnerHome2 == Passed
-2019-10-29 14:26:22.922 [main] INFO  TestCases.LoginPageTest - Testing Test_Pipeline
-2019-10-29 14:26:23.067 [main] INFO  TestCases.LoginPageTest - Test: Test_Pipeline == Passed
-2019-10-29 14:26:23.068 [main] INFO  TestCases.LoginPageTest - Testing Test_Playbooks
-2019-10-29 14:26:23.209 [main] INFO  TestCases.LoginPageTest - Test: Test_Playbooks == Passed
-2019-10-29 14:26:23.210 [main] INFO  TestCases.LoginPageTest - Testing Test_PortalConfiguration2
-2019-10-29 14:26:23.346 [main] INFO  TestCases.LoginPageTest - Test: Test_PortalConfiguration2 == Passed
-2019-10-29 14:26:23.347 [main] INFO  TestCases.LoginPageTest - Testing Test_PRMHome
-2019-10-29 14:26:23.487 [main] INFO  TestCases.LoginPageTest - Test: Test_PRMHome == Passed
-2019-10-29 14:26:23.488 [main] INFO  TestCases.LoginPageTest - Testing Test_Reports2
-2019-10-29 14:26:23.628 [main] INFO  TestCases.LoginPageTest - Test: Test_Reports2 == Passed
-2019-10-29 14:26:23.630 [main] INFO  TestCases.LoginPageTest - Testing Test_Resources2
-2019-10-29 14:26:23.770 [main] INFO  TestCases.LoginPageTest - Test: Test_Resources2 == Passed
-2019-10-29 14:26:23.780 [main] INFO  TestCases.LoginPageTest - Testing Test_StartHere
-2019-10-29 14:26:23.937 [main] INFO  TestCases.LoginPageTest - Test: Test_StartHere == Passed
-2019-10-29 14:26:23.938 [main] INFO  TestCases.LoginPageTest - Testing Test_Training2
-2019-10-29 14:26:24.092 [main] INFO  TestCases.LoginPageTest - Test: Test_Training2 == Passed
-2019-10-29 14:26:24.093 [main] INFO  TestCases.LoginPageTest - Testing Test_UpdateOpportunity
-2019-10-29 14:26:24.231 [main] INFO  TestCases.LoginPageTest - Test: Test_UpdateOpportunity == Passed
-2019-10-29 14:26:24.231 [main] INFO  Base.TestBase - Finishing Magentrix test Tue Oct 29 14:26:24 EDT 2019
+2019-10-29 16:00:37.527 [main] INFO  TestCases.LoginPageTest - Testing TitleTest
+2019-10-29 16:00:37.551 [main] INFO  TestCases.LoginPageTest - Test: TitleTest == Passed
+2019-10-29 16:00:37.554 [main] INFO  TestCases.LoginPageTest - Testing Test_Logo
+2019-10-29 16:00:37.748 [main] INFO  TestCases.LoginPageTest - Test: Test_Logo == Passed
+2019-10-29 16:00:37.748 [main] INFO  TestCases.LoginPageTest - Testing Test_TopSignUp
+2019-10-29 16:00:37.926 [main] INFO  TestCases.LoginPageTest - Test: Test_TopSignUp == Passed
+2019-10-29 16:00:37.927 [main] INFO  TestCases.LoginPageTest - Testing Test_TopSignIn
+2019-10-29 16:00:38.095 [main] INFO  TestCases.LoginPageTest - Test: Test_TopSignIn == Passed
+2019-10-29 16:00:38.097 [main] INFO  TestCases.LoginPageTest - Testing Test_Welcome
+2019-10-29 16:00:38.269 [main] INFO  TestCases.LoginPageTest - Test: Test_Welcome == Passed
+2019-10-29 16:00:38.271 [main] INFO  TestCases.LoginPageTest - Testing Test_UserName
+2019-10-29 16:00:38.424 [main] INFO  TestCases.LoginPageTest - Test: Test_UserName == Passed
+2019-10-29 16:00:38.425 [main] INFO  TestCases.LoginPageTest - Testing Test_Password
+2019-10-29 16:00:38.585 [main] INFO  TestCases.LoginPageTest - Test: Test_Password == Passed
+2019-10-29 16:00:38.586 [main] INFO  TestCases.LoginPageTest - Testing Test_LoginBtn
+2019-10-29 16:00:38.729 [main] INFO  TestCases.LoginPageTest - Test: Test_LoginBtn == Passed
+2019-10-29 16:00:38.734 [main] INFO  TestCases.LoginPageTest - Testing Test_RememberMe
+2019-10-29 16:00:38.895 [main] INFO  TestCases.LoginPageTest - Test: Test_RememberMe == Passed
+2019-10-29 16:00:38.896 [main] INFO  TestCases.LoginPageTest - Testing Test_ForgotPWD
+2019-10-29 16:00:39.048 [main] INFO  TestCases.LoginPageTest - Test: Test_ForgotPWD == Passed
+2019-10-29 16:00:39.050 [main] INFO  TestCases.LoginPageTest - Testing Test_NotMember
+2019-10-29 16:00:39.209 [main] INFO  TestCases.LoginPageTest - Test: Test_NotMember == Passed
+2019-10-29 16:00:39.211 [main] INFO  TestCases.LoginPageTest - Testing Test_SignUpBtn
+2019-10-29 16:00:39.350 [main] INFO  TestCases.LoginPageTest - Test: Test_SignUpBtn == Passed
+2019-10-29 16:00:39.351 [main] INFO  TestCases.LoginPageTest - Testing Test_WrongLogin
+2019-10-29 16:00:40.217 [main] INFO  TestCases.LoginPageTest - Test: Test_WrongLogin == Passed
+2019-10-29 16:00:40.219 [main] INFO  TestCases.LoginPageTest - Testing Test_CorrectLogin
+2019-10-29 16:00:43.699 [main] INFO  TestCases.LoginPageTest - Test: Test_CorrectLogin == Passed
+2019-10-29 16:00:43.699 [main] INFO  TestCases.LoginPageTest - Testing TitleTest
+2019-10-29 16:00:43.711 [main] INFO  TestCases.LoginPageTest - Test: TitleTest == Passed
+2019-10-29 16:00:43.713 [main] INFO  TestCases.LoginPageTest - Testing Test_HomePageLogo
+2019-10-29 16:00:43.870 [main] INFO  TestCases.LoginPageTest - Test: Test_HomePageLogo == Passed
+2019-10-29 16:00:43.873 [main] INFO  TestCases.LoginPageTest - Testing Test_PartnerHome
+2019-10-29 16:00:44.042 [main] INFO  TestCases.LoginPageTest - Test: Test_PartnerHome == Passed
+2019-10-29 16:00:44.043 [main] INFO  TestCases.LoginPageTest - Testing Test_ManageTeam
+2019-10-29 16:00:44.206 [main] INFO  TestCases.LoginPageTest - Test: Test_ManageTeam == Passed
+2019-10-29 16:00:44.208 [main] INFO  TestCases.LoginPageTest - Testing Test_DealRegistrations
+2019-10-29 16:00:44.383 [main] INFO  TestCases.LoginPageTest - Test: Test_DealRegistrations == Passed
+2019-10-29 16:00:44.385 [main] INFO  TestCases.LoginPageTest - Testing Test_Opportunities
+2019-10-29 16:00:44.544 [main] INFO  TestCases.LoginPageTest - Test: Test_Opportunities == Passed
+2019-10-29 16:00:44.553 [main] INFO  TestCases.LoginPageTest - Testing Test_Accounts
+2019-10-29 16:00:44.707 [main] INFO  TestCases.LoginPageTest - Test: Test_Accounts == Passed
+2019-10-29 16:00:44.710 [main] INFO  TestCases.LoginPageTest - Testing Test_Resources
+2019-10-29 16:00:44.873 [main] INFO  TestCases.LoginPageTest - Test: Test_Resources == Passed
+2019-10-29 16:00:44.875 [main] INFO  TestCases.LoginPageTest - Testing Test_MarketingCenter
+2019-10-29 16:00:45.021 [main] INFO  TestCases.LoginPageTest - Test: Test_MarketingCenter == Passed
+2019-10-29 16:00:45.022 [main] INFO  TestCases.LoginPageTest - Testing Test_Reports
+2019-10-29 16:00:45.171 [main] INFO  TestCases.LoginPageTest - Test: Test_Reports == Passed
+2019-10-29 16:00:45.173 [main] INFO  TestCases.LoginPageTest - Testing Test_Documents
+2019-10-29 16:00:45.344 [main] INFO  TestCases.LoginPageTest - Test: Test_Documents == Passed
+2019-10-29 16:00:45.345 [main] INFO  TestCases.LoginPageTest - Testing Test_DropDown
+2019-10-29 16:00:46.207 [main] INFO  TestCases.LoginPageTest - Test: Test_DropDown == Passed
+2019-10-29 16:00:46.209 [main] INFO  TestCases.LoginPageTest - Testing Test_Training
+2019-10-29 16:00:46.369 [main] INFO  TestCases.LoginPageTest - Test: Test_Training == Passed
+2019-10-29 16:00:46.371 [main] INFO  TestCases.LoginPageTest - Testing Test_MDF
+2019-10-29 16:00:46.529 [main] INFO  TestCases.LoginPageTest - Test: Test_MDF == Passed
+2019-10-29 16:00:46.530 [main] INFO  TestCases.LoginPageTest - Testing Test_Marketplace
+2019-10-29 16:00:46.677 [main] INFO  TestCases.LoginPageTest - Test: Test_Marketplace == Passed
+2019-10-29 16:00:46.678 [main] INFO  TestCases.LoginPageTest - Testing Test_MarketplacePublishing
+2019-10-29 16:00:46.844 [main] INFO  TestCases.LoginPageTest - Test: Test_MarketplacePublishing == Passed
+2019-10-29 16:00:46.846 [main] INFO  TestCases.LoginPageTest - Testing Test_Ideas
+2019-10-29 16:00:46.998 [main] INFO  TestCases.LoginPageTest - Test: Test_Ideas == Passed
+2019-10-29 16:00:46.999 [main] INFO  TestCases.LoginPageTest - Testing Test_NewsFeed
+2019-10-29 16:00:47.145 [main] INFO  TestCases.LoginPageTest - Test: Test_NewsFeed == Passed
+2019-10-29 16:00:47.147 [main] INFO  TestCases.LoginPageTest - Testing Test_PartnerTraining
+2019-10-29 16:00:47.300 [main] INFO  TestCases.LoginPageTest - Test: Test_PartnerTraining == Passed
+2019-10-29 16:00:47.301 [main] INFO  TestCases.LoginPageTest - Testing Test_PortalConfiguration
+2019-10-29 16:00:47.462 [main] INFO  TestCases.LoginPageTest - Test: Test_PortalConfiguration == Passed
+2019-10-29 16:00:47.464 [main] INFO  TestCases.LoginPageTest - Testing Test_More
+2019-10-29 16:00:47.611 [main] INFO  TestCases.LoginPageTest - Test: Test_More == Passed
+2019-10-29 16:00:47.612 [main] INFO  TestCases.LoginPageTest - Testing Test_Accounts2
+2019-10-29 16:00:48.541 [main] INFO  TestCases.LoginPageTest - Test: Test_Accounts2 == Passed
+2019-10-29 16:00:48.543 [main] INFO  TestCases.LoginPageTest - Testing Test_ApplianceRequestForm
+2019-10-29 16:00:48.684 [main] INFO  TestCases.LoginPageTest - Test: Test_ApplianceRequestForm == Passed
+2019-10-29 16:00:48.685 [main] INFO  TestCases.LoginPageTest - Testing Test_Campaigns
+2019-10-29 16:00:48.823 [main] INFO  TestCases.LoginPageTest - Test: Test_Campaigns == Passed
+2019-10-29 16:00:48.824 [main] INFO  TestCases.LoginPageTest - Testing Test_Community
+2019-10-29 16:00:48.975 [main] INFO  TestCases.LoginPageTest - Test: Test_Community == Passed
+2019-10-29 16:00:48.977 [main] INFO  TestCases.LoginPageTest - Testing Test_CustomerHome
+2019-10-29 16:00:49.116 [main] INFO  TestCases.LoginPageTest - Test: Test_CustomerHome == Passed
+2019-10-29 16:00:49.118 [main] INFO  TestCases.LoginPageTest - Testing Test_DealRegistrations2
+2019-10-29 16:00:49.264 [main] INFO  TestCases.LoginPageTest - Test: Test_DealRegistrations2 == Passed
+2019-10-29 16:00:49.266 [main] INFO  TestCases.LoginPageTest - Testing Test_Directory
+2019-10-29 16:00:49.422 [main] INFO  TestCases.LoginPageTest - Test: Test_Directory == Passed
+2019-10-29 16:00:49.423 [main] INFO  TestCases.LoginPageTest - Testing Test_Documents2
+2019-10-29 16:00:49.563 [main] INFO  TestCases.LoginPageTest - Test: Test_Documents2 == Passed
+2019-10-29 16:00:49.564 [main] INFO  TestCases.LoginPageTest - Testing Test_EngagementDashboard
+2019-10-29 16:00:49.719 [main] INFO  TestCases.LoginPageTest - Test: Test_EngagementDashboard == Passed
+2019-10-29 16:00:49.719 [main] INFO  TestCases.LoginPageTest - Testing Test_EventsCalendar2
+2019-10-29 16:00:49.870 [main] INFO  TestCases.LoginPageTest - Test: Test_EventsCalendar2 == Passed
+2019-10-29 16:00:49.871 [main] INFO  TestCases.LoginPageTest - Testing Test_TechStore
+2019-10-29 16:00:50.010 [main] INFO  TestCases.LoginPageTest - Test: Test_TechStore == Passed
+2019-10-29 16:00:50.011 [main] INFO  TestCases.LoginPageTest - Testing Test_Forums
+2019-10-29 16:00:50.149 [main] INFO  TestCases.LoginPageTest - Test: Test_Forums == Passed
+2019-10-29 16:00:50.150 [main] INFO  TestCases.LoginPageTest - Testing Test_GoToMeeting
+2019-10-29 16:00:50.300 [main] INFO  TestCases.LoginPageTest - Test: Test_GoToMeeting == Passed
+2019-10-29 16:00:50.301 [main] INFO  TestCases.LoginPageTest - Testing Test_Groups
+2019-10-29 16:00:50.449 [main] INFO  TestCases.LoginPageTest - Test: Test_Groups == Passed
+2019-10-29 16:00:50.451 [main] INFO  TestCases.LoginPageTest - Testing Test_HelpTickets
+2019-10-29 16:00:50.602 [main] INFO  TestCases.LoginPageTest - Test: Test_HelpTickets == Passed
+2019-10-29 16:00:50.602 [main] INFO  TestCases.LoginPageTest - Testing Test_Ideas2
+2019-10-29 16:00:50.741 [main] INFO  TestCases.LoginPageTest - Test: Test_Ideas2 == Passed
+2019-10-29 16:00:50.742 [main] INFO  TestCases.LoginPageTest - Testing Test_KnowledgeBase
+2019-10-29 16:00:50.883 [main] INFO  TestCases.LoginPageTest - Test: Test_KnowledgeBase == Passed
+2019-10-29 16:00:50.885 [main] INFO  TestCases.LoginPageTest - Testing Test_LLPlaybox
+2019-10-29 16:00:51.033 [main] INFO  TestCases.LoginPageTest - Test: Test_LLPlaybox == Passed
+2019-10-29 16:00:51.034 [main] INFO  TestCases.LoginPageTest - Testing Test_ManageTeam2
+2019-10-29 16:00:51.184 [main] INFO  TestCases.LoginPageTest - Test: Test_ManageTeam2 == Passed
+2019-10-29 16:00:51.185 [main] INFO  TestCases.LoginPageTest - Testing Test_MarketingCenter2
+2019-10-29 16:00:51.334 [main] INFO  TestCases.LoginPageTest - Test: Test_MarketingCenter2 == Passed
+2019-10-29 16:00:51.335 [main] INFO  TestCases.LoginPageTest - Testing Test_Marketplace2
+2019-10-29 16:00:51.488 [main] INFO  TestCases.LoginPageTest - Test: Test_Marketplace2 == Passed
+2019-10-29 16:00:51.488 [main] INFO  TestCases.LoginPageTest - Testing Test_MarketplacePublishing2
+2019-10-29 16:00:51.635 [main] INFO  TestCases.LoginPageTest - Test: Test_MarketplacePublishing2 == Passed
+2019-10-29 16:00:51.636 [main] INFO  TestCases.LoginPageTest - Testing Test_MDFRequests
+2019-10-29 16:00:51.781 [main] INFO  TestCases.LoginPageTest - Test: Test_MDFRequests == Passed
+2019-10-29 16:00:51.782 [main] INFO  TestCases.LoginPageTest - Testing Test_NewPartnerTraining
+2019-10-29 16:00:51.932 [main] INFO  TestCases.LoginPageTest - Test: Test_NewPartnerTraining == Passed
+2019-10-29 16:00:51.932 [main] INFO  TestCases.LoginPageTest - Testing Test_Newsfeed
+2019-10-29 16:00:52.086 [main] INFO  TestCases.LoginPageTest - Test: Test_Newsfeed == Passed
+2019-10-29 16:00:52.087 [main] INFO  TestCases.LoginPageTest - Testing Test_Opportunities2
+2019-10-29 16:00:52.222 [main] INFO  TestCases.LoginPageTest - Test: Test_Opportunities2 == Passed
+2019-10-29 16:00:52.223 [main] INFO  TestCases.LoginPageTest - Testing Test_PartnerDashboard
+2019-10-29 16:00:52.360 [main] INFO  TestCases.LoginPageTest - Test: Test_PartnerDashboard == Passed
+2019-10-29 16:00:52.361 [main] INFO  TestCases.LoginPageTest - Testing Test_PartnerHome2
+2019-10-29 16:00:52.497 [main] INFO  TestCases.LoginPageTest - Test: Test_PartnerHome2 == Passed
+2019-10-29 16:00:52.499 [main] INFO  TestCases.LoginPageTest - Testing Test_Pipeline
+2019-10-29 16:00:52.638 [main] INFO  TestCases.LoginPageTest - Test: Test_Pipeline == Passed
+2019-10-29 16:00:52.639 [main] INFO  TestCases.LoginPageTest - Testing Test_Playbooks
+2019-10-29 16:00:52.777 [main] INFO  TestCases.LoginPageTest - Test: Test_Playbooks == Passed
+2019-10-29 16:00:52.778 [main] INFO  TestCases.LoginPageTest - Testing Test_PortalConfiguration2
+2019-10-29 16:00:52.935 [main] INFO  TestCases.LoginPageTest - Test: Test_PortalConfiguration2 == Passed
+2019-10-29 16:00:52.936 [main] INFO  TestCases.LoginPageTest - Testing Test_PRMHome
+2019-10-29 16:00:53.072 [main] INFO  TestCases.LoginPageTest - Test: Test_PRMHome == Passed
+2019-10-29 16:00:53.073 [main] INFO  TestCases.LoginPageTest - Testing Test_Reports2
+2019-10-29 16:00:53.212 [main] INFO  TestCases.LoginPageTest - Test: Test_Reports2 == Passed
+2019-10-29 16:00:53.213 [main] INFO  TestCases.LoginPageTest - Testing Test_Resources2
+2019-10-29 16:00:53.350 [main] INFO  TestCases.LoginPageTest - Test: Test_Resources2 == Passed
+2019-10-29 16:00:53.351 [main] INFO  TestCases.LoginPageTest - Testing Test_StartHere
+2019-10-29 16:00:53.489 [main] INFO  TestCases.LoginPageTest - Test: Test_StartHere == Passed
+2019-10-29 16:00:53.490 [main] INFO  TestCases.LoginPageTest - Testing Test_Training2
+2019-10-29 16:00:53.628 [main] INFO  TestCases.LoginPageTest - Test: Test_Training2 == Passed
+2019-10-29 16:00:53.628 [main] INFO  TestCases.LoginPageTest - Testing Test_UpdateOpportunity
+2019-10-29 16:00:53.767 [main] INFO  TestCases.LoginPageTest - Test: Test_UpdateOpportunity == Passed
+2019-10-29 16:00:53.768 [main] INFO  Base.TestBase - Finishing Magentrix test Tue Oct 29 16:00:53 EDT 2019
 
-2019-10-29 14:26:24.231 [main] INFO  Base.TestBase - Test execution took 24 Seconds
+2019-10-29 16:00:53.768 [main] INFO  Base.TestBase - Test execution took 21 Seconds

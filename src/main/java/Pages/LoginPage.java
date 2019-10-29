@@ -44,7 +44,7 @@ public class LoginPage extends TestBase {
     WebElement SignUpBtn;
 
 
-@FindBy(xpath = "//span[text()='Your login attempt has failed. The username or password may be incorrect, or your access may be restricted. Please contact the administrator for help.']")
+@FindBy(xpath = "//span[text()='Too many retries.  Please try again at a later time.']")
 WebElement Error;
 
 @FindBy(xpath = "//a[text()='Partner Home']")
