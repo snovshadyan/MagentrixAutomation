@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b634d478-fed3-4ff8-97d7-07d2a07ec2e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuites/testng_Chrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuites/testng_Chrome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/LimeLight_Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/LimeLight_Extent.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572014459546</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added HomePage">
+      <created>1572296923768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572296923768</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added wrong login test" />
     <MESSAGE value="Added sleep" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sleep" />
+    <MESSAGE value="Added HomePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HomePage" />
   </component>
 </project>

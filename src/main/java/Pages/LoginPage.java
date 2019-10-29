@@ -116,6 +116,7 @@ WebElement Home;
         UserName.sendKeys(prop.getProperty("WrongUsername"));
         Password.sendKeys(prop.getProperty("WrongPassword"));
         LoginBtn.click();
+        Thread.sleep(500);
         return Error.isDisplayed();
     }
 
@@ -125,6 +126,7 @@ WebElement Home;
 
         UserName.clear();
         Password.clear();
+        Thread.sleep(500);
         UserName.sendKeys(prop.getProperty("Username"));
         Password.sendKeys(prop.getProperty("Password"));
         LoginBtn.click();

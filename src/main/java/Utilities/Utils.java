@@ -24,16 +24,16 @@ public class Utils extends TestBase {
 
 
 
-/*
-    public  static void WFEV(By by) throws Exception {
 
-        sleep(100);
-        HEY(driver.findElement(by));
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-    }
+//    public  static void WFEV(By by) throws Exception {
+//
+//        sleep(100);
+//        HEY(driver.findElement(by));
+//        WebDriverWait wait = new WebDriverWait(driver, 10);
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+//    }
 
-*/
+
 
     public static boolean WFENV(By by) throws Exception{
 
