@@ -145,6 +145,58 @@ public class HomePage extends TestBase {
     @FindBy(xpath = "//span[text()='New Partner Training']")
     WebElement NewPartnerTraining;
 
+    @FindBy(xpath = "//span[text()='Newsfeed']")
+    WebElement Newsfeed;
+
+    @FindBy(xpath = "//span[text()='Opportunities']")
+    WebElement Opportunities2;
+
+    @FindBy(xpath = "//span[text()='Partner Dashboard']")
+    WebElement PartnerDashboard;
+
+    @FindBy(xpath = "//span[text()='Partner Home']")
+    WebElement PartnerHome2;
+
+    @FindBy(xpath = "//span[text()='Pipeline']")
+    WebElement Pipeline;
+
+    @FindBy(xpath = "//span[text()='Playbooks']")
+    WebElement Playbooks;
+
+    @FindBy(xpath = "//span[text()='Portal Configuration']")
+    WebElement PortalConfiguration2;
+
+    @FindBy(xpath = "//span[text()='PRM Home']")
+    WebElement PRMHome;
+
+    @FindBy(xpath = "//span[text()='Reports']")
+    WebElement Reports2;
+
+    @FindBy(xpath = "//span[text()='Resources']")
+    WebElement Resources2;
+
+    @FindBy(xpath = "//span[text()='StartHere']")
+    WebElement StartHere;
+
+    @FindBy(xpath = "//span[text()='Training']")
+    WebElement Training2;
+
+    @FindBy(xpath = "//span[text()='Update Opportunity']")
+    WebElement UpdateOpportunity;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -387,14 +439,72 @@ public class HomePage extends TestBase {
         return NewPartnerTraining.isDisplayed();
     }
 
+    public boolean verify_Newsfeed() throws Exception{
+        Utils.HEY(Newsfeed);
+        return Newsfeed.isDisplayed();
+    }
+
+    public boolean verify_Opportunities2() throws Exception{
+        Utils.HEY(Opportunities2);
+        return Opportunities2.isDisplayed();
+    }
 
 
+    public boolean verify_PartnerDashboard() throws Exception{
+        Utils.HEY(PartnerDashboard);
+        return PartnerDashboard.isDisplayed();
+    }
+
+    public boolean verify_PartnerHome2() throws Exception{
+        Utils.HEY(PartnerHome2);
+        return PartnerHome2.isDisplayed();
+    }
+
+    public boolean verify_Pipeline() throws Exception{
+        Utils.HEY(Pipeline);
+        return Pipeline.isDisplayed();
+    }
+
+    public boolean verify_Playbooks() throws Exception{
+        Utils.HEY(Playbooks);
+        return Playbooks.isDisplayed();
+    }
+
+    public boolean verify_PortalConfiguration2() throws Exception{
+        Utils.HEY(PortalConfiguration2);
+        return PortalConfiguration2.isDisplayed();
+    }
 
 
+    public boolean verify_PRMHome() throws Exception{
+        Utils.HEY(PRMHome);
+        return PRMHome.isDisplayed();
+    }
 
+    public boolean verify_Reports2() throws Exception{
+        Utils.HEY(Reports2);
+        return Reports2.isDisplayed();
+    }
 
+    public boolean verify_Resources2() throws Exception{
+        Utils.HEY(Resources2);
+        return Resources2.isDisplayed();
+    }
 
+    public boolean verify_StartHere() throws Exception{
+        Utils.HEY(StartHere);
+        return StartHere.isDisplayed();
+    }
 
+    public boolean verify_Training2() throws Exception{
+        Utils.HEY(Training2);
+        return Training2.isDisplayed();
+    }
+
+    public boolean verify_UpdateOpportunity() throws Exception{
+        Utils.HEY(UpdateOpportunity);
+        return UpdateOpportunity.isDisplayed();
+    }
 
 
 

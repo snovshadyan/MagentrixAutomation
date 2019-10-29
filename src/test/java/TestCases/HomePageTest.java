@@ -263,12 +263,71 @@ public class HomePageTest extends TestBase {
         Assert.assertTrue(homepage.verify_NewPartnerTraining());
     }
 
+    @Test (priority = 46)
+    public void Test_Newsfeed() throws Exception {
+        Assert.assertTrue(homepage.verify_Newsfeed());
+    }
+
+    @Test (priority = 47)
+    public void Test_Opportunities2() throws Exception {
+        Assert.assertTrue(homepage.verify_Opportunities2());
+    }
+
+    @Test (priority = 48)
+    public void Test_PartnerDashboard() throws Exception {
+        Assert.assertTrue(homepage.verify_PartnerDashboard());
+    }
 
 
+    @Test (priority = 49)
+    public void Test_PartnerHome2() throws Exception {
+        Assert.assertTrue(homepage.verify_PartnerHome2());
+    }
 
+    @Test (priority = 50)
+    public void Test_Pipeline() throws Exception {
+        Assert.assertTrue(homepage.verify_Pipeline());
+    }
 
+    @Test (priority = 51)
+    public void Test_Playbooks() throws Exception {
+        Assert.assertTrue(homepage.verify_Playbooks());
+    }
 
+    @Test (priority = 52)
+    public void Test_PortalConfiguration2() throws Exception {
+        Assert.assertTrue(homepage.verify_PortalConfiguration2());
+    }
 
+    @Test (priority = 53)
+    public void Test_PRMHome() throws Exception {
+        Assert.assertTrue(homepage.verify_PRMHome());
+    }
+
+    @Test (priority = 54)
+    public void Test_Reports2() throws Exception {
+        Assert.assertTrue(homepage.verify_Reports2());
+    }
+
+    @Test (priority = 55)
+    public void Test_Resources2() throws Exception {
+        Assert.assertTrue(homepage.verify_Resources2());
+    }
+
+    @Test (priority = 56)
+    public void Test_StartHere() throws Exception {
+        Assert.assertTrue(homepage.verify_StartHere());
+    }
+
+    @Test (priority = 57)
+    public void Test_Training2() throws Exception {
+        Assert.assertTrue(homepage.verify_Training2());
+    }
+
+    @Test (priority = 58)
+    public void Test_UpdateOpportunity() throws Exception {
+        Assert.assertTrue(homepage.verify_UpdateOpportunity());
+    }
 
 
 

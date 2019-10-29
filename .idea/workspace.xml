@@ -5,12 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Automation.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/LimeLight_Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/LimeLight_Extent.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572296923768</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added tests">
+      <created>1572371761432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572371761432</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +140,7 @@
     <MESSAGE value="Added wrong login test" />
     <MESSAGE value="Added sleep" />
     <MESSAGE value="Added HomePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added HomePage" />
+    <MESSAGE value="Added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests" />
   </component>
 </project>
